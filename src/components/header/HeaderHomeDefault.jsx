@@ -36,16 +36,18 @@ const HeaderHomeDefault = () => {
           <div className="container-xxl">
             <div className="ptf-navbar-inner">
               {/* <!--Logo--> */}
-              <Link className="ptf-navbar-logo" to="/">
+              <Link className="ptf-navbar-logo" to="/home-default">
                 <img
                   className="black"
-                  src="assets/img/root/logo-dark.png"
+                  src="assets/img/root/compass-logo-black.png"
+                  width={250} height={250}
                   alt=""
                   loading="lazy"
                 />
                 <img
                   className="white"
-                  src="assets/img/root/logo-white.png"
+                  src="assets/img/root/compass-logo-white.png"
+                  width={250} height={250}
                   alt=""
                   loading="lazy"
                 />
@@ -57,12 +59,12 @@ const HeaderHomeDefault = () => {
               </nav>
               {/* <!--Buttons--> */}
 
-              {/* <!--Navbar Search--> */}
-              <div
+            
+              {/* <div
                 className={
                   click ? "ptf-navbar-search is-open" : "ptf-navbar-search"
                 }
-              >
+                >
                 <div className="ptf-navbar-search__wrapper">
                   <Search />
                 </div>
@@ -74,8 +76,8 @@ const HeaderHomeDefault = () => {
                   <i className="lnir lnir-search-alt"></i>
                   <i className="lnir lnir-close"></i>
                 </div>
-              </div>
-              {/* <!--Offcanvas Menu Toggle--> */}
+              </div> */}
+
 
               <div
                 className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle bar right"
@@ -83,7 +85,7 @@ const HeaderHomeDefault = () => {
               >
                 <i className="lnir lnir-menu-alt-5"></i>
               </div>
-              {/* Toggle bar icon */}
+
             </div>
           </div>
         </div>
@@ -96,13 +98,6 @@ const HeaderHomeDefault = () => {
         }
       >
         <div className="ptf-offcanvas-menu__header">
-          <div className="ptf-language-switcher">
-            <a className="is-active" href="#">
-              Eng
-            </a>
-            <a href="#">Fra</a>
-            <a href="#">Ger</a>
-          </div>
           <span
             className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle"
             onClick={handleClick1}
@@ -110,7 +105,7 @@ const HeaderHomeDefault = () => {
             <i className="lnir lnir-close"></i>
           </span>
         </div>
-        {/* End .ptf-offcanvas-menu__header */}
+
 
         <MobileMenu />
       </div>
