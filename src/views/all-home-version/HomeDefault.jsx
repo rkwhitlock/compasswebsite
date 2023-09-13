@@ -18,7 +18,7 @@ const HomeDefault = () => {
   return (
     <div className="ptf-site-wrapper animsition  ptf-is--home-default">
       <Helmet>
-        <title>Moonex - Home Default</title>
+        <title>COMPASS - Home Default</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -115,7 +115,10 @@ const HomeDefault = () => {
                       data-aos-delay="0"
                     >
                       <h2 className="h1 large-heading d-inline-flex">
-                        Latest Works
+                        PROJECT SHOWCASE
+                      </h2>
+                      <h2 className="h2 d-inline-flex">
+                        Exploring the world with mathematics & social analysis.
                       </h2>
                     </div>
                   </div>

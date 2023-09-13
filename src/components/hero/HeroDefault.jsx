@@ -1,15 +1,12 @@
 import React from "react";
 
 const heroContent = {
-  title: "Moonex",
-  subTitle1: " Crafting Digital",
-  subTitle2: "Agency",
-  subTitleDescription1: "Good design mean that",
+  title: "",
+  subTitle1: " ",
+  subTitle2: "",
+  subTitleDescription1: "Mathematical Modeling for Social Good",
   subTitleDescription2: "good business",
-  detailsDescription: `We help our client suceed by creating identities, digital
-    experiences, and printmaterials that communicate clearly,
-    achieve marketing goals & look fantastic Lorem uispum dolor
-    sit amert tunoer poea opefse ceefo goipully.`,
+  detailsDescription: "We're a student run organization partnering with local and international organizations to amplify their impact through mathematics, computer science and data science.",
 };
 
 const HeroDefault = () => {
@@ -59,7 +56,7 @@ const HeroDefault = () => {
             className="
                 fz-70
                 fz-40--md
-                fw-extrabold
+                fw-light
                 lh-1p1
                 has-white-color
               "

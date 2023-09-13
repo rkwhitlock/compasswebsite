@@ -154,7 +154,7 @@ h1,
 
   @include mq("xlarge", min) {
     &.large-heading {
-      font-size: px2rem(80px);
+      font-size: px2rem(50px);
       line-height: 1.1;
     }
   }
@@ -162,7 +162,9 @@ h1,
 
 h2,
 .h2 {
+  font-family: var(--ptf-secondary-font) !important;
   font-size: px2rem(48px);
+  
 }
 
 h3,
