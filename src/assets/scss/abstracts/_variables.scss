@@ -31,8 +31,8 @@ $base_font_size: 16px;
   @include defineColorHSLA("--ptf-color-18", 0, 0%, 0%, 80%); // #000, 80%
   @include defineColorHSL("--ptf-color-19", 45, 17%, 95%); // #f5f4f1
   // Fonts
-  --ptf-primary-font: "NewYork";
-  --ptf-secondary-font: "Amiri";
+  --ptf-primary-font: "Montserrat";
+  --ptf-secondary-font: "NewYork";
   // Icons
   --ptf-socicon: "Socicon";
   --ptf-linear-icons-light: LineIconsPro Light;
