@@ -47,7 +47,7 @@ const menuContent = [
     name: "About",
     activeClass: "",
     menuClass: "",
-    path:"/works-grid",
+    path:"/Team",
     // dropDownItems: [
     //   {
     //     name: "Works Grid",

@@ -17,7 +17,7 @@ const menuContent = [
   },
   {
     name: "About Us",
-    path: '/works-showcase', // needs to be changed
+    path: '/Team', // needs to be changed
   },
   {
     name: "Contact Us",

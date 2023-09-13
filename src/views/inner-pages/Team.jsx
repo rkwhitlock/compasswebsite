@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import HeaderDefault from "../../components/header/HeaderDefault";
+import HeaderDefault from "../../components/header/HeaderHomeDefault";
 import CopyRight from "../../components/footer/copyright/CopyRight";
 import Footer from "../../components/footer/Footer";
 import TeamTwo from "../../components/team/TeamTwo";
