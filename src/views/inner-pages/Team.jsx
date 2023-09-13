@@ -1,9 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import HeaderDefault from "../../components/header/HeaderDefault";
 import CopyRight from "../../components/footer/copyright/CopyRight";
 import Footer from "../../components/footer/Footer";
 import TeamTwo from "../../components/team/TeamTwo";
+import Portfolio from "../../components/portfolio/Portfolio";
+import Approach from "../../components/service/Approach";
+import TestimonialThree from "../../components/testimonial/TestimonialThree";
+import Brand from "../../components/brand/Brand";
+import Counter from "../../components/counter/Counter";
+import Testimonial from "../../components/testimonial/Testimonial";
 
 const Team = () => {
   return (
@@ -18,6 +25,120 @@ const Team = () => {
 
       <div className="ptf-main">
         <div className="ptf-page ptf-page--team">
+        <section>
+              <div className="container-xxl">
+                <div className="row align-items-center">
+                  <div className="col-12 col-md-9">
+                    {/* <!--Animated Block--> */}
+                    <div
+                      className="ptf-animated-block"
+                      data-aos="fade"
+                      data-aos-delay="0"
+                    >
+                       <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "9.5rem" }}
+              ></div>
+                      <h2 className="h1 large-heading space-500 d-inline-flex">
+                        COMPASS
+                      </h2>
+                      
+                     
+                      <p className="margin-250">COMMUNITY-ORIENTED MATHEMATICS PROJECTS FOR AMBITIOUS STEM STUDENTS</p>
+                    </div>
+                    <p className="margin-150">We're a team of UCSD students passionate about integrating <b>math</b>, <b>technology</b>, <b>and human-centered design</b> to make a difference in the real world.</p>
+                
+                  </div>
+                  
+                  <div className="col-12 col-md-3 text-md-end">
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-md": "1.875rem" }}
+                    ></div>
+                    
+                  </div>
+                  </div>
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "6.25rem" }}
+                ></div>
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  {/* <!--Content Slider--> */}
+                  <Portfolio />
+                  
+                </div>
+                
+              </div>
+              
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "9.5rem" }}
+              ></div>
+              
+            </section>
+            <div className="container-xxl">
+            <h2 className="h1 large-heading space-300 d-inline-flex">
+                        Our Mission
+                      </h2>
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  {/* <!--Content Slider--> */}
+                  <div className="ptf-content-slider swiper-container">
+                    {/* <!--Testimonial--> */}
+                    <TestimonialThree/>
+                  </div>
+                </div>
+                {/* End Testimonial */}
+              </div>
+           
+
+              <section>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div className="container-xxl">
+              
+                {/* End .row */}
+                <div className="row">
+                  <div className="col-12">
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
+                    ></div>
+                    {/* <!--Divider--> */}
+                    <div className="ptf-divider"></div>
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+                    ></div>
+                  </div>
+                </div>
+                {/* End .row */}
+
+                <Counter />
+              </div>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+            </section>
           <section>
             {/* <!--Spacer--> */}
             <div
@@ -33,7 +154,7 @@ const Team = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">The face of Moonex Labs</h1>
+                    <h2 className="h1 large-heading space-300 d-inline-flex">Meet the Team</h2>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"

@@ -3,35 +3,13 @@ import Slider from "react-slick";
 
 const testimonialContent = [
   {
-    descriptions: ` “Bruno was a real pleasure to work with and we look forward to
-    working with him again. He’s definitely the kind of designer you
-    can trust with a project from start to finish. Great services &
-    Recommended!”`,
-    name: "Jurgen Kloop",
-    designation: "Product Management",
-    companyName: "Google Inc",
-    webLink: "https://www.google.com/",
-  },
-  {
-    descriptions: ` “Bruno was a real pleasure to work with and we look forward to
-    working with him again. He’s definitely the kind of designer you
-    can trust with a project from start to finish. Great services &
-    Recommended!”`,
-    name: "Jurgen Kloop",
-    designation: "Product Management",
-    companyName: "Google Inc",
-    webLink: "https://www.google.com/",
-  },
-  {
-    descriptions: ` “Bruno was a real pleasure to work with and we look forward to
-    working with him again. He’s definitely the kind of designer you
-    can trust with a project from start to finish. Great services &
-    Recommended!”`,
-    name: "Jurgen Kloop",
-    designation: "Product Management",
-    companyName: "Google Inc",
-    webLink: "https://www.google.com/",
-  },
+    descriptions: `In Spring of 2022... [insert ale, terrys and matteo's story] ... a mutual passion which sewed the seeds for broadening into a campus club.
+    COMPASS is a channel through which personal interest can be applied towards a greater cause, made accessible to any driven student who wants to see change.
+    
+    Our mission is to ... Projects such as [x] and [y]`,
+    
+  }
+  
 ];
 
 const TestimonialThree = () => {
@@ -59,15 +37,7 @@ const TestimonialThree = () => {
             <div className="ptf-testimonial__content">
               <p>{val.descriptions}</p>
             </div>
-            <div className="ptf-testimonial__meta">
-              <h6 className="ptf-testimonial__author">{val.name}</h6>
-              <div className="ptf-testimonial__info">
-                <span>{val.designation}</span> at{" "}
-                <a href={val.webLink} target="_blank" rel="noopener noreferrer">
-                  {val.companyName}
-                </a>
-              </div>
-            </div>
+            
           </div>
         ))}
       </Slider>

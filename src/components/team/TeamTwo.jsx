@@ -4,20 +4,20 @@ const teamContent = [
   {
     delayAnimation: "0",
     img: "team-1-m",
-    title: "Stephan Bowie",
-    designation: "CEO Founder",
+    title: "Alejandro Soumah",
+    designation: "President ",
   },
   {
     delayAnimation: "100",
     img: "team-2-m",
-    title: "Robert Downey Jr",
-    designation: "CO Founder",
+    title: "Taerim Choi",
+    designation: "CO-President Logistic",
   },
   {
     delayAnimation: "200",
     img: "team-3-m",
-    title: "Laura Lorwence",
-    designation: "Project Management",
+    title: "Matteo Perona",
+    designation: "Co-President Technical",
   },
   {
     delayAnimation: "300",

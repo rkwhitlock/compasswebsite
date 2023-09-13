@@ -5,32 +5,25 @@ import VisibilitySensor from "react-visibility-sensor";
 const counterUpContent = [
   {
     startCount: "0",
-    endCount: "120",
-    metaText1: "YEARS OF",
-    metaText2: "EXPERIENCE",
+    endCount: "3",
+    metaText1: "+ PROJECTS",
+    metaText2: "LAUNCHED",
     animationDelay: "0",
   },
   {
     startCount: "0",
-    endCount: "8200",
-    metaText1: "SATISFACTION",
-    metaText2: "CLIENTS",
+    endCount: "30",
+    metaText1: "+ ACTIVE",
+    metaText2: "MEMBERS",
     animationDelay: "100",
   },
   {
     startCount: "0",
-    endCount: "6430",
-    metaText1: "EMPLOYEES ON",
-    metaText2: "WORLDWIDE",
+    endCount: "50",
+    metaText1: "OTHER BRAGGING",
+    metaText2: "POINT",
     animationDelay: "200",
-  },
-  {
-    startCount: "0",
-    endCount: "18750",
-    metaText1: "PROJECTS COMPLETED",
-    metaText2: "ON 60 COUNTRIES",
-    animationDelay: "300",
-  },
+  }
 ];
 
 const Counter = () => {

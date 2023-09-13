@@ -119,6 +119,38 @@
     padding: 0;
   }
 }
+.space-500 {
+  padding: 0 50%;
+  width: 150%;
+  textAlign: 'center';
+  @media (max-width: 767px) {
+    padding: 0;
+  }
+}
+.space-300 {
+  padding: 0 35%;
+  width: 150%;
+  textAlign: 'center';
+  @media (max-width: 767px) {
+    padding: 0;
+  }
+}
+.margin-250 {
+  margin: 0 40%;
+  width: 100%;
+  textAlign: 'center';
+  @media (max-width: 767px) {
+    margin: 0;
+  }
+}
+.margin-150 {
+  margin: 0 25%;
+  width: 100%;
+  textAlign: 'center';
+  @media (max-width: 767px) {
+    margin: 0;
+  }
+}
 .testimonial-pagination--style-bottom {
   .slick-dots {
     bottom: -60px;

@@ -148,14 +148,18 @@ h1,
   font-size: px2rem(60px);
   line-height: 1.2;
   font-weight: 800;
+  transform: "translate(0px, -50%)";
+  textAlign: "center";
   @media (max-width: 576px) {
     font-size: px2rem(50px);
   }
 
   @include mq("xlarge", min) {
     &.large-heading {
-      font-size: px2rem(50px);
+      font-size: px2rem(80px);
       line-height: 1.1;
+      display: "flex";
+      textAlign: "center";
     }
   }
 }
