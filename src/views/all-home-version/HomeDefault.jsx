@@ -36,7 +36,7 @@ const HomeDefault = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "15rem" }}
+                style={{ "--ptf-xxl": "7rem" }}
               ></div>
               <div className="container-xxl">
                 <HeroDefault />
@@ -44,7 +44,7 @@ const HomeDefault = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem" }}
+                style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "6.25rem" }}
               ></div>
             </section>
 
@@ -90,7 +90,8 @@ const HomeDefault = () => {
                   
                   </div>
                     <BlogOne />
-                    <h2 className="h1 large-heading space-300 d-inline-flex margin-left-250">Fighting for global diversity, <br/> equity and inclusion</h2>
+                    <h2 className="h1 small-heading space-300 d-inline-flex margin-left-250">Fighting for global diversity, <br/> equity and inclusion</h2>
+                    <p className="margin-left-240  space-300 d-inline-flex">We understand that [problem statement]. We [our approach] to [goal]</p>
                   </div>
                 </div>
               </div>
@@ -132,7 +133,7 @@ const HomeDefault = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h2 className="h1 large-heading space-300 d-inline-flex">Upcoming Events</h2>
+                    <h2 className="h1 space-300 d-inline-flex">Upcoming Events</h2>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
@@ -167,11 +168,11 @@ const HomeDefault = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading d-inline-flex">
+                      <p className="margin-500">
                         PROJECT SHOWCASE
-                      </h2>
-                      <h2 className="h2 d-inline-flex">
-                        Exploring the world with mathematics & social analysis.
+                      </p>
+                      <h2 className="h1 d-inline-flex margin-260">
+                        Exploring the world<br/>   with mathematics <br/>& social analysis.
                       </h2>
                     </div>
                   </div>
@@ -239,8 +240,8 @@ const HomeDefault = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h1 large-heading">Organizations, want to amplify your impact?</h2>
-                  <p>HERE's WHAT WE CAN DO FOR YOU</p>
+                  <h2 className="h1  space-150 d-inline-flex">Organizations, want to amplify your impact?</h2>
+                  <p className="margin-250">HERE'S WHAT WE CAN DO FOR YOU</p>
                 </div>
                 {/* <!--Spacer--> */}
                 <div

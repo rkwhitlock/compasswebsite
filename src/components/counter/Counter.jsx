@@ -29,7 +29,7 @@ const counterUpContent = [
 const Counter = () => {
   const [focus, setFocus] = React.useState(false);
   return (
-    <div className="row" style={{ "--bs-gutter-y": "2rem" }}>
+    <div className="row padding40" style={{ "--bs-gutter-y": "2rem" }}>
       {counterUpContent.map((val, i) => (
         <div className="col-6 col-lg-3" key={i}>
           {/* <!--Animated Block--> */}

@@ -42,7 +42,7 @@ const HeroDefault = () => {
           className="ptf-spacer"
           style={{
             "--ptf-xxl": "8.125rem",
-            "--ptf-md": "4.0625rem",
+            "--ptf-md": "2.0625rem",
           }}
         ></div>
         {/* <!--Animated Block--> */}
@@ -68,8 +68,8 @@ const HeroDefault = () => {
         <div
           className="ptf-spacer"
           style={{
-            "--ptf-xxl": "9.375rem",
-            "--ptf-md": "4.6875rem",
+            "--ptf-xxl": "4.375rem",
+            "--ptf-md": "2.6875rem",
           }}
         ></div>
         <div className="row">

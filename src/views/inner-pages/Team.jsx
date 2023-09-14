@@ -16,7 +16,7 @@ const Team = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - Team</title>
+        <title>COMPASS - ABOUT</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -39,15 +39,18 @@ const Team = () => {
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "9.5rem" }}
               ></div>
+              <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "7.5rem", "--ptf-md": " 3.75rem" }}
+                ></div>
                       <h2 className="h1 large-heading space-500 d-inline-flex">
                         COMPASS
                       </h2>
                       
                      
-                      <p className="margin-250">COMMUNITY-ORIENTED MATHEMATICS PROJECTS FOR AMBITIOUS STEM STUDENTS</p>
+                      <p className="margin-130">COMMUNITY-ORIENTED MATHEMATICS PROJECTS FOR AMBITIOUS STEM STUDENTS</p>
                     </div>
-                    <p className="margin-150">We're a team of UCSD students passionate about integrating <b>math</b>, <b>technology</b>, <b>and human-centered design</b> to make a difference in the real world.</p>
-                
+                   
                   </div>
                   
                   <div className="col-12 col-md-3 text-md-end">
@@ -58,6 +61,7 @@ const Team = () => {
                     ></div>
                     
                   </div>
+                   
                   </div>
                 {/* <!--Spacer--> */}
                 <div
@@ -76,12 +80,19 @@ const Team = () => {
                 </div>
                 
               </div>
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "5rem", "--ptf-md": "9.5rem" }}
+              ></div>
               
               {/* <!--Spacer--> */}
+              <p className="margin-100">We're a team of UCSD students passionate about integrating <b>math</b>, <b>technology</b>, <b>and human-centered design</b> to make a difference in the real world.</p>
+                
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "9.5rem" }}
               ></div>
+              
               
             </section>
             <div className="container-xxl">
@@ -94,6 +105,10 @@ const Team = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
+                   <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "2rem", "--ptf-md": "5rem" }}
+              ></div>
                   {/* <!--Content Slider--> */}
                   <div className="ptf-content-slider swiper-container">
                     {/* <!--Testimonial--> */}
