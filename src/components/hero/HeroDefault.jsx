@@ -5,7 +5,6 @@ const heroContent = {
   subTitle1: " ",
   subTitle2: "",
   subTitleDescription1: "Mathematical Modeling for Social Good",
-  subTitleDescription2: "good business",
   detailsDescription: "We're a student run organization partnering with local and international organizations to amplify their impact through mathematics, computer science and data science.",
 };
 
@@ -52,8 +51,8 @@ const HeroDefault = () => {
           data-aos="fade"
           data-aos-delay="200"
         >
-          <p
-            className="
+          <h2
+            className="h1 large-heading
                 fz-70
                 fz-40--md
                 fw-light
@@ -63,7 +62,7 @@ const HeroDefault = () => {
           >
             {heroContent.subTitleDescription1} <br />
             {heroContent.subTitleDescription2}
-          </p>
+          </h2>
         </div>
         {/* <!--Spacer--> */}
         <div
@@ -133,19 +132,7 @@ const HeroDefault = () => {
           data-aos-delay="200"
         >
           {/* <!--Mask Image--> */}
-          <div className="ptf-mask-image" style={{ maxWidth: "18.25rem" }}>
-            <img
-              className="spin"
-              src="assets/img/root/home-default/circle-text.png"
-              alt=""
-              loading="lazy"
-            />
-            <img
-              src="assets/img/root/home-default/circle-logo.png"
-              alt=""
-              loading="lazy"
-            />
-          </div>
+          
         </div>
       </div>
     </div>

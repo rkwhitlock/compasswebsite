@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Award from "../../components/award/Award";
 import Blog from "../../components/blog/Blog";
+import BlogOne from "../../components/blog/Blog_one"
 import Brand from "../../components/brand/Brand";
 import Counter from "../../components/counter/Counter";
 import CopyRight from "../../components/footer/copyright/CopyRight";
@@ -50,6 +51,62 @@ const HomeDefault = () => {
             {/*=============================================
                 Start Service Section
               ============================================== */}
+            
+
+            {/*=============================================
+                Start Portfolio Section
+              ============================================== */}
+               <section>
+                
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div className="container-xxl">
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <div
+                    className="row"
+                    style={{
+                      "--bs-gutter-x": "3.75rem",
+                      "--bs-gutter-y": "7.5rem",
+                    }}
+                  >
+                    <div
+                    className="ptf-animated-block"
+                    data-aos="fade"
+                    data-aos-delay="0"
+                  >
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "2.5rem" }}
+                    ></div>
+                  
+                  </div>
+                    <BlogOne />
+                    <h2 className="h1 large-heading space-300 d-inline-flex margin-left-250">Fighting for global diversity, <br/> equity and inclusion</h2>
+                  </div>
+                </div>
+              </div>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+            </section>
+            <section>
+              <div className="container-xxl">
+                {/* <!--Divider--> */}
+                <div className="ptf-divider"></div>
+              </div>
+            </section>
+
             <section>
               {/* <!--Spacer--> */}
               <div
@@ -57,40 +114,33 @@ const HomeDefault = () => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
               <div className="container-xxl">
-                <div className="row">
-                  <div className="col-lg-3">
-                    {/* <!--Animated Block--> */}
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <div
+                    className="row"
+                    style={{
+                      "--bs-gutter-x": "3.75rem",
+                      "--bs-gutter-y": "7.5rem",
+                    }}
+                  >
                     <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1 large-heading">
-                        Our <br />
-                        Services
-                      </h2>
-                      {/* <!--Spacer--> */}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "2.5rem" }}
-                      ></div>
-                      <p className="fz-18">
-                        We help ambitious businesses like yours generate more
-                        profits by building awareness, driving web traffic,
-                        connecting with customers and growing overall sales.
-                      </p>
-                    </div>
+                    className="ptf-animated-block"
+                    data-aos="fade"
+                    data-aos-delay="0"
+                  >
+                    <h2 className="h1 large-heading space-300 d-inline-flex">Upcoming Events</h2>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
-                      style={{
-                        "--ptf-lg": "4.375rem",
-                        "--ptf-md": "2.1875rem",
-                      }}
+                      style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
+                  
                   </div>
-                  <div className="col-lg-8 offset-lg-1">
-                    <ServiceOne />
+                    <Blog />
                   </div>
                 </div>
               </div>
@@ -102,8 +152,11 @@ const HomeDefault = () => {
             </section>
 
             {/*=============================================
-                Start Portfolio Section
+                End Blog Section
               ============================================== */}
+          </div>
+        </div>
+        {/* End .ptf-main */}
             <section>
               <div className="container-xxl">
                 <div className="row align-items-center">
@@ -172,13 +225,7 @@ const HomeDefault = () => {
               ============================================== */}
             <section
               className="has-accent-1-background"
-              style={{
-                backgroundImage: `url(${
-                  process.env.PUBLIC_URL + "assets/img/root/service-bubble.png"
-                })`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "100% calc(100% + 120px)",
-              }}
+             
             >
               {/* <!--Spacer--> */}
               <div
@@ -192,7 +239,8 @@ const HomeDefault = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h1 large-heading">Our Approach</h2>
+                  <h2 className="h1 large-heading">Organizations, want to amplify your impact?</h2>
+                  <p>HERE's WHAT WE CAN DO FOR YOU</p>
                 </div>
                 {/* <!--Spacer--> */}
                 <div
@@ -211,196 +259,44 @@ const HomeDefault = () => {
             {/*=============================================
                 Start Brand and Counterup Section
               ============================================== */}
-            <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-12">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1 large-heading">Moonex’s Partners</h2>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}
-                    ></div>
-                  </div>
-                </div>
-                {/* End .row */}
-                <Brand />
-                <div className="row">
-                  <div className="col-12">
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-                    ></div>
-                    {/* <!--Divider--> */}
-                    <div className="ptf-divider"></div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
-                    ></div>
-                  </div>
-                </div>
-                {/* End .row */}
+      
 
-                <Counter />
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
-
-            {/*=============================================
-                Start Jaralax Testimonial Section
-              ============================================== */}
-            <section
-              className="jarallax jarallax-img"
-              style={{
-                backgroundImage: `url(${
-                  process.env.PUBLIC_URL +
-                  "assets/img/about-us-testimonial-background.png"
-                })`,
-              }}
-            >
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem" }}
-              ></div>
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-xl-4">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <img
-                        src="assets/img/root/quote.png"
-                        alt=""
-                        loading="lazy"
-                      />
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xl": "3.75rem" }}
-                    ></div>
-                  </div>
-                  <div className="col-xl-8">
-                    <Testimonial />
-                  </div>
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem" }}
-              ></div>
-            </section>
-
-            {/*=============================================
-                Start Award Section
-              ============================================== */}
-            <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "11.875rem", "--ptf-md": "5.9375rem" }}
-              ></div>
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-lg-4">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1 large-heading">
-                        Our
-                        <br />
-                        Awards
-                      </h2>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-lg": "3.75rem" }}
-                    ></div>
-                  </div>
-                  <div className="col-lg-8">
-                    <Award />
-                  </div>
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
-
-            <section>
+            
+    
+      <section>
               <div className="container-xxl">
                 {/* <!--Divider--> */}
                 <div className="ptf-divider"></div>
               </div>
             </section>
 
-            <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-              <div className="container-xxl">
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
+           <section>
+            {/* <!--Spacer--> */}
+            <div
+              className="ptf-spacer"
+              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+            ></div>
+            <div className="container-xxl">
+        <div className="row">
+                <div className="col-xl-10">
+                  {/* <!--Animated Block--> */}
                   <div
-                    className="row"
-                    style={{
-                      "--bs-gutter-x": "3.75rem",
-                      "--bs-gutter-y": "7.5rem",
-                    }}
+                    className="ptf-animated-block"
+                    data-aos="fade"
+                    data-aos-delay="0"
                   >
-                    <Blog />
+                    <h2 className="h1 large-heading space-300 d-inline-flex">Join our voyage</h2>
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "2.5rem" }}
+                    ></div>
+                  
                   </div>
                 </div>
               </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
-
-            {/*=============================================
-                End Blog Section
-              ============================================== */}
-          </div>
-        </div>
-        {/* End .ptf-main */}
-
+              </div>
+              </section>
         {/* <!--Footer--> */}
         <footer className="ptf-footer ptf-footer--style-1">
           <div className="container-xxl">

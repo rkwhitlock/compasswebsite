@@ -22,16 +22,4 @@
     mask-image: var(--ptf-mask-image);
     mask-repeat: round;
   }
-  img.lay {
-    -webkit-mask-image: url(../../img/about-me-main-image-mask.png);
-    mask-image: url(../../img/about-me-main-image-mask.png);
-  }
-  img.lay2 {
-    -webkit-mask-image: url(../../img/about-us-main-image-mask.png);
-    mask-image: url(../../img/about-us-main-image-mask.png);
-  }
-  img.lay3 {
-    -webkit-mask-image: url(../../img/home-dark-main-image-mask.png);
-    mask-image: url(../../img/home-dark-main-image-mask.png);
-  }
 }

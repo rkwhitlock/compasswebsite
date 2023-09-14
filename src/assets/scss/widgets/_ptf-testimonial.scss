@@ -135,6 +135,14 @@
     padding: 0;
   }
 }
+.margin-left-250 {
+  margin-right:-10%;
+  width: 150%;
+  textAlign: 'center';
+  @media (max-width: 767px) {
+    padding: 0;
+  }
+}
 .margin-250 {
   margin: 0 40%;
   width: 100%;

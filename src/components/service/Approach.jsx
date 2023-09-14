@@ -2,42 +2,21 @@ import React from "react";
 
 const approachContent = [
   {
-    subTitle: "ONE",
-    title: "Research",
+    subTitle: "Prototyping a new product",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
     delayAnimation: "0",
   },
 
   {
-    subTitle: "TWO",
-    title: "Concept",
+    subTitle: "Adding a new feature",
     descriptions: `Donec venenatis consequat libero, quis auctor nunc volutpat quis. Proin at ipsum id magna dapibus dictum eget lobortis magna. Fusce et ligula non tellus vulputate condimentum.`,
     delayAnimation: "100",
   },
   {
-    subTitle: "THREE",
-    title: "Strategy",
+    subTitle: "Improving current product",
     descriptions: `Consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
     delayAnimation: "200",
-  },
-  {
-    subTitle: "FOUR",
-    title: "Development",
-    descriptions: `Vivamus vel sollicitudin sem, id sagittis justo. Nam non magna eleifend, tempus nisl quis, commod diam. Morbi gravida ut nulla non porttitor. Suspendis eget arcu eu ex dignissim faucibus. Nullam et luctus tortor.`,
-    delayAnimation: "300",
-  },
-  {
-    subTitle: "FIVE",
-    title: "Test",
-    descriptions: `Suspendisse vel magna vitae nunc consequat eleifend. Aenean iaculis Nam non magna eleifend est eget turpis lacinia egest dictum ipsum sollicitudin.Suspendis eget arcu eu ex dignissim faucibus.`,
-    delayAnimation: "400",
-  },
-  {
-    subTitle: "SIX",
-    title: "Hand Over",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
-    delayAnimation: "500",
-  },
+  }
 ];
 
 const Approach = () => {
