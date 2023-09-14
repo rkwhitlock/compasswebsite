@@ -137,7 +137,7 @@ const HomeDefault = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h2 className="h1 space-300 d-inline-flex">Upcoming Events</h2>
+                    <h2 className="h1 space-300 d-inline-flex">Our Projects</h2>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
@@ -173,10 +173,10 @@ const HomeDefault = () => {
                       data-aos-delay="0"
                     >
                       <p className="margin-500">
-                        PROJECT SHOWCASE
+                        Announcements & Events
                       </p>
                       <h2 className="h1 d-inline-flex margin-260">
-                        Exploring the world<br/>   with mathematics <br/>& social analysis.
+                        Announcements
                       </h2>
                     </div>
                   </div>
@@ -187,7 +187,7 @@ const HomeDefault = () => {
                       style={{ "--ptf-md": "1.875rem" }}
                     ></div>
                     {/* <!--Animated Block--> */}
-                    <Link
+                    {/* <Link
                       className="
                           ptf-link-with-arrow
                           fz-18
@@ -200,7 +200,7 @@ const HomeDefault = () => {
                       style={{ marginLeft: "5.625rem" }}
                     >
                       All Projects <i className="lnil lnil-chevron-right"></i>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
                 {/* <!--Spacer--> */}

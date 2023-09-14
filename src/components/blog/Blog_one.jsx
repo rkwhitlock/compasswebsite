@@ -3,12 +3,8 @@ import { Link } from "react-router-dom";
 
 const blogContent = [
   {
-    img: "post-1",
-    cat: "Product",
-    date: "Everyother Friday starting Week 2",
-    title: "Local Project Meeting's",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Nullam dignissim tortor vitae mattis tempor...`,
+    img: "geisel2",
+    
   },
 ];
 
@@ -22,7 +18,7 @@ const Blog = () => {
             <article className="ptf-post ptf-post--style-4">
               <div className="ptf-post__media">
                 <img
-                  src={`assets/img/home/default/${val.img}.png`}
+                  src={`assets/img/home/default/${val.img}.webp`}
                   alt=""
                   loading="lazy"
                 />

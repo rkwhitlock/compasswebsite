@@ -3,21 +3,21 @@ import { Link } from "react-router-dom";
 
 const blogContent = [
   {
-    img: "post-1",
+    img: "homesless2",
     cat: "Every Friday starting Week 1",
     title: "LOCAL PROJECT",
-    description: `Everyother Friday starting Week 2++`,
+    description: `Every other Friday starting Week 2++`,
   },
   {
-    img: "post-2",
+    img: "compass-1",
     cat: "The only one FQ23",
     date: "Oct 10, 2023",
-    title: "THE COMPASS GBM",
+    title: "COMPASS Webdev",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nullam dignissim tortor vitae mattis tempor...`,
   },
   {
-    img: "post-3",
+    img: "earth-2",
     cat: "Every Tuesday starting Week 1",
     title: "GLOBAL PROJECT",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
