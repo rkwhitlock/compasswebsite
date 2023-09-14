@@ -7,6 +7,38 @@
   }
 }
 
+
+.container-avg {
+  display: flex;
+  justify-content: flex-start;
+  padding-top:20px;
+}
+
+.container-name-input{
+  display: flex;
+}
+
+.container-socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left:100px;
+}
+
+.container-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-y {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-inline:50px;
+}
+
 .ptf-main {
   overflow: hidden;
 }
