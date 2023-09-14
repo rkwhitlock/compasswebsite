@@ -2,19 +2,23 @@ import React from "react";
 
 const approachContent = [
   {
-    subTitle: "Prototyping a new product",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    subTitle: "San Diego-based Organizations",
+    descriptions: `Get in touch with our social media and message us via Instagram and LinkedIn.
+    Send us an email through our Contact Us page for specific inquiries regarding potential collaborations.
+    Check out our Local Project showcase to see how you can get involved in the community`,
     delayAnimation: "0",
   },
 
   {
-    subTitle: "Adding a new feature",
-    descriptions: `Donec venenatis consequat libero, quis auctor nunc volutpat quis. Proin at ipsum id magna dapibus dictum eget lobortis magna. Fusce et ligula non tellus vulputate condimentum.`,
+    subTitle: "UCSD students",
+    descriptions: `Attend our quarterly GBMs to see what we are all about.
+    Apply to be a member of our club! Applications are open before week 4 of each academic quarter.
+    Connect with our active members! We are more than willing to advise and converse with you on the steps necessary to become apart of the COMPASS family`,
     delayAnimation: "100",
   },
   {
-    subTitle: "Improving current product",
-    descriptions: `Consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    subTitle: "Donors",
+    descriptions: `All the money raised goes directly back to research, student-led events, and helping those in need. Allocation of finances can be made available to donors as we have a transparent pipeline of where our money goes to. We appreciate every contribution! `,
     delayAnimation: "200",
   }
 ];

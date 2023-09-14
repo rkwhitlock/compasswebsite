@@ -6,7 +6,7 @@ const blogContent = [
     img: "post-1",
     cat: "Product",
     date: "Dec 15, 2021",
-    title: "Review product BWIB",
+    title: "Everyother Friday starting Week 2",
   },
   {
     img: "post-2",

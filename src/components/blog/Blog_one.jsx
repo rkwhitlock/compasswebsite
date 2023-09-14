@@ -5,8 +5,8 @@ const blogContent = [
   {
     img: "post-1",
     cat: "Product",
-    date: "Dec 15, 2021",
-    title: "Review product BWIB",
+    date: "Everyother Friday starting Week 2",
+    title: "Local Project Meeting's",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nullam dignissim tortor vitae mattis tempor...`,
   },

@@ -90,8 +90,12 @@ const HomeDefault = () => {
                   
                   </div>
                     <BlogOne />
-                    <h2 className="h1 small-heading space-300 d-inline-flex margin-left-250">Fighting for global diversity, <br/> equity and inclusion</h2>
-                    <p className="margin-left-240  space-300 d-inline-flex">We understand that [problem statement]. We [our approach] to [goal]</p>
+                    <h2 className="h1 small-heading space-300 d-inline-flex margin-left-250">Here at COMPASS at UC San Diego, <br/> we have four key missions:</h2>
+                    <p className="margin-left-240  space-300 d-inline-flex">
+                    Create impactful career experiences for student members<br/> <br/> 
+                    Assist local nonprofit organizations in the San Diego area using technical methods<br/><br/> 
+                    Conducting research inquiries with the aim of fostering positive societal impact on a global scale<br/><br/> 
+                    Create impactful career experiences for student members </p>
                   </div>
                 </div>
               </div>
@@ -240,7 +244,7 @@ const HomeDefault = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h1  space-150 d-inline-flex">Organizations, want to amplify your impact?</h2>
+                  <h2 className="h1  space-180 d-inline-flex">Want to Make a Difference?</h2>
                   <p className="margin-250">HERE'S WHAT WE CAN DO FOR YOU</p>
                 </div>
                 {/* <!--Spacer--> */}

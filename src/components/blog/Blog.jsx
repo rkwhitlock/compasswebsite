@@ -4,25 +4,22 @@ import { Link } from "react-router-dom";
 const blogContent = [
   {
     img: "post-1",
-    cat: "Product",
-    date: "Dec 15, 2021",
-    title: "Review product BWIB",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Nullam dignissim tortor vitae mattis tempor...`,
+    cat: "Every Friday starting Week 1",
+    title: "LOCAL PROJECT",
+    description: `Everyother Friday starting Week 2++`,
   },
   {
     img: "post-2",
-    cat: "Inspiration",
-    date: "Dec 7, 2021",
-    title: " Site inspiration with Swiss style",
+    cat: "The only one FQ23",
+    date: "Oct 10, 2023",
+    title: "THE COMPASS GBM",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nullam dignissim tortor vitae mattis tempor...`,
   },
   {
     img: "post-3",
-    cat: "Community",
-    date: "Dec 7, 2021",
-    title: "Minimalist Trends",
+    cat: "Every Tuesday starting Week 1",
+    title: "GLOBAL PROJECT",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nullam dignissim tortor vitae mattis tempor...`,
   },
