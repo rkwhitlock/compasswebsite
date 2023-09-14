@@ -2,26 +2,14 @@ import React from "react";
 
 const socialList = [
   {
-    iconName: "socicon-twitter",
-    link: "https://twitter.com/",
-  },
-  {
-    iconName: "socicon-facebook",
-    link: "https://www.facebook.com/",
+    iconName: "socicon-linkedin",
+    link: "https://www.linkedin.com/company/compass-institution",
   },
   {
     iconName: "socicon-instagram",
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/ucsdcompass/",
   },
-  {
-    iconName: "socicon-pinterest",
-    link: "https://www.pinterest.com/",
-  },
-  {
-    iconName: "socicon-dribbble",
-    link: "https://dribbble.com/",
-  },
-];
+]
 
 const SocialTwo = () => {
   return (

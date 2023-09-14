@@ -9,8 +9,8 @@
 -------------------------------------------- */
 
 .ptf-footer--style-1 {
-  background-color: var(--ptf-color-9);
-  background-image: url(../../img/root/footer-bubble.png);
+  background-color: var(--ptf-color-100);
+
   background-repeat: no-repeat;
   background-position: calc(50% - 190px) 100%;
   background-size: 565px 340px;
@@ -65,10 +65,7 @@
     padding-bottom: px2rem(45px);
 
     border-top: 2px solid var(--ptf-color-black);
-
-    @include mq("medium") {
-      padding-bottom: px2rem(30px);
-    }
+    
 
     [class^="col"] {
       margin-bottom: px2rem(30px);
@@ -102,8 +99,7 @@
       }
     }
   }
-
-  .ptf-footer__bottom {
+.ptf-footer__bottom {
     padding-bottom: px2rem(70px);
 
     @include mq("medium") {
@@ -277,3 +273,4 @@
     }
   }
 }
+
