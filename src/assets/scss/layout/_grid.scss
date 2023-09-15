@@ -7,6 +7,10 @@
   }
 }
 
+.container-contact-us{
+  display: flex;
+  justify-content: center;
+}
 
 .container-avg {
   display: flex;
@@ -22,7 +26,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left:100px;
+  padding-left:125px;
 }
 
 .container-inputs {

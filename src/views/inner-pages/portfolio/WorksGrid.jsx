@@ -28,7 +28,7 @@ const WorksGrid = () => {
 
               <div className="container-xxl">
                 <div className="row">
-                  <div className="col-xl-10">
+                  <div className="container-contact-us">
                     {/* <!--Animated Block--> */}
                     <div
                       className="ptf-animated-block"
