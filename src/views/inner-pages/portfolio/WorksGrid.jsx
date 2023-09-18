@@ -10,10 +10,10 @@ const WorksGrid = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--works-grid">
       <Helmet>
-        <title>Moonex - Works/Portfolio Grid</title>
+        <title>COMPASS - Contact Us</title>
       </Helmet>
       {/* End Page SEO Content */}
-      <div className="ptf-site-wrapper__inner margin_bottom_30">
+      <div className="ptf-site-wrapper__inner">
         <HeaderDefault />
         {/* End  HeaderHomeDefault */}
 
@@ -26,7 +26,7 @@ const WorksGrid = () => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
 
-              <div className="container-xxl">
+              <div className="container-xxl margin_top_and_bottom">
                 <div className="row">
                   <div className="container-contact-us">
                     {/* <!--Animated Block--> */}
@@ -39,29 +39,30 @@ const WorksGrid = () => {
 
                         <div>
                           <h2 className="h1 large-heading">Contact Us</h2>
-                          <h6 className="subheading">COMPASS@COMPASS.ORG</h6>
+                          <h6 className="subheading">shrutiyamala@COMPASS.ORG</h6>
                         </div>
 
                         <div className='container-avg'>
 
-                          <form className="container-inputs">
+                          <form className="container-inputs" action="https://formspree.io/f/xrgwlyqp"
+  method="POST">
 
                             <div class="form-group">
                               <label for="exampleInputEmail1">Name *</label>
                               <div className="container-name-input">
-                                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First" />
-                                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last" />
+                                <input name="FirstName" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First" />
+                                <input name="SecondName" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last" />
                               </div>
                             </div>
                             <div class="form-group">
                               <label for="exampleInputEmail1">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                              <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
                               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
 
                             <div class="form-group">
                               <label for="exampleFormControlTextarea1">Text *</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Just expressing interest; have a project in mind; or any comments/questions, etc."></textarea>
+                              <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Just expressing interest; have a project in mind; or any comments/questions, etc."></textarea>
                             </div>
 
                             <button type="submit" class="btn btn-secondary">Submit</button>
@@ -70,12 +71,14 @@ const WorksGrid = () => {
                           <div className="container-socials">
                             <div>
                               <h5>Instagram</h5>
-                              <small>@compassinstitutionucsd</small>
+                              <small>@ucsdcompass</small>
                             </div>
+                            {/*
                             <div>
                               <h5>Facebook</h5>
                               <small>@compassinstitutionucsd</small>
                             </div>
+                             */}
                             <div>
                               <h5>LinkedIn</h5>
                               <small>@compassinstitutionucsd</small>

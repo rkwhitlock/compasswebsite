@@ -55,7 +55,7 @@ const Portfolio = () => {
           {portfolioContent.map((item, i) => (
             <article className="ptf-work ptf-work--style-3" key={i}>
               <div className="ptf-work__media">
-                <Link to="/works-showcase" className="ptf-work__link"></Link>
+                <Link to="/" className="ptf-work__link"></Link>
               <img
                   src={require(`../../assets/img/home/default/${item.img}.png`)}
                   
@@ -66,7 +66,7 @@ const Portfolio = () => {
               <div className="ptf-work__meta">
                 <div className="ptf-work__category">{item.categorie}</div>
                 <h4 className="ptf-work__title">
-                  <Link to="/works-showcase">{item.title}</Link>
+                  <Link to="/">{item.title}</Link>
                 </h4>
               </div>
             </article>

@@ -3,10 +3,7 @@ import Slider from "react-slick";
 
 const testimonialContent = [
   {
-    descriptions: `In Spring of 2022... [insert ale, terrys and matteo's story] ... a mutual passion which sewed the seeds for broadening into a campus club.
-    COMPASS is a channel through which personal interest can be applied towards a greater cause, made accessible to any driven student who wants to see change.
-    
-    Our mission is to ... Projects such as [x] and [y]`,
+    descriptions: `Our mission at COMPASS, Community Oriented Mathematics Projects for Ambitious STEM Students, is to harness the power of mathematical modeling to address pressing societal challenges. We are dedicated to unearthing innovative solutions, eradicating corruption, and democratizing information for a more sustainable future, both locally and globally. With a commitment to diversity, equity, and inclusion, we empower underrepresented groups, advance the personal career goals of our members, and cultivate valuable STEM experiences for all participants. Through collaboration, research, and outreach, we aim to chart a course towards a better tomorrow.`,
     
   }
   

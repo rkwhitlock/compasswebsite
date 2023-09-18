@@ -21,7 +21,7 @@ const menuContent = [
   },
   {
     name: "Contact Us",
-    path: '/works-showcase', // needs to be changed
+    path: '/works-grid', // needs to be changed
   },
 ];
 
