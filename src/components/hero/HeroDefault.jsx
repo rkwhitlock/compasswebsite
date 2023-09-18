@@ -129,10 +129,23 @@ const HeroDefault = () => {
         <div
           className="ptf-animated-block"
           data-aos="fade"
-          data-aos-delay="200"
+          data-aos-delay="50"
         >
           {/* <!--Mask Image--> */}
-          
+          <div className="ptf-mask-image logo-small" style={{ width: "600px"}}>
+            <img
+              className="spin"
+              src={require("../../assets/img/home/default/compass-icon.png")}
+              alt=""
+              loading="eager"
+            />
+            
+            <img
+              src="assets/img/root/home-default/circle-logo.png"
+              alt=""
+              loading="eager"
+            />
+          </div>
         </div>
       </div>
     </div>

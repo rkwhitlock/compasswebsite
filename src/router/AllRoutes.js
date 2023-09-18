@@ -46,7 +46,7 @@ const AllRoutes = () => {
     <>
       <ScrollTopBehaviour />
       <Routes>
-        <Route path="/" element={<Preview />} />
+        <Route path="/" element={<HomeDefault />} />
         {/*  Homepage Demo */}
         <Route path="/home-default" element={<HomeDefault />} />
         <Route path="/home-studio" element={<HomeStudio />} />

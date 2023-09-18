@@ -6,6 +6,7 @@ import CopyRight from "../../components/footer/copyright/CopyRight";
 import Footer from "../../components/footer/Footer";
 import TeamTwo from "../../components/team/TeamTwo";
 import Portfolio from "../../components/portfolio/Portfolio";
+import Portfolio2 from "../../components/portfolio/Portfolio2";
 import Approach from "../../components/service/Approach";
 import TestimonialThree from "../../components/testimonial/TestimonialThree";
 import Brand from "../../components/brand/Brand";
@@ -75,7 +76,7 @@ const Team = () => {
                   data-aos-delay="0"
                 >
                   {/* <!--Content Slider--> */}
-                  <Portfolio />
+                  <Portfolio2 />
                   
                 </div>
                 
@@ -86,7 +87,7 @@ const Team = () => {
               ></div>
               
               {/* <!--Spacer--> */}
-              <p className="margin-100">We're a team of UCSD students passionate about integrating <b>math</b>, <b>technology</b>, <b>and human-centered design</b> to make a difference in the real world.</p>
+              <p className="margin-90">We're a team of UCSD students passionate about integrating <b>math</b>, <b>technology</b>, <b>and human-centered design</b> to make a difference in the real world.</p>
                 
               <div
                 className="ptf-spacer"
@@ -154,8 +155,10 @@ const Team = () => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
             </section>
+          {/*<!--jmm]
+          ssasas
           <section>
-            {/* <!--Spacer--> */}
+            {/* <!--Spacer-->
             <div
               className="ptf-spacer"
               style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
@@ -163,28 +166,28 @@ const Team = () => {
             <div className="container-xxl">
               <div className="row">
                 <div className="col-xl-10">
-                  {/* <!--Animated Block--> */}
+                  {/* <!--Animated Block--> 
                   <div
                     className="ptf-animated-block"
                     data-aos="fade"
                     data-aos-delay="0"
                   >
                     <h2 className="h1 large-heading space-300 d-inline-flex">Meet the Team</h2>
-                    {/* <!--Spacer--> */}
+                    {/* <!--Spacer--> 
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
-                    <p className="fz-24">
+                    <p className="fz-24 margin-120">
                       Meet our talents team of creative, fun-lovers and magic
                       makers.
                     </p>
                   </div>
                 </div>
               </div>
-              {/* End .row */}
+              {/* End .row 
 
-              {/* <!--Spacer--> */}
+              {/* <!--Spacer-->
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
@@ -194,12 +197,12 @@ const Team = () => {
                 <TeamTwo />
               </div>
             </div>
-            {/* <!--Spacer--> */}
+            {/* <!--Spacer--> 
             <div
               className="ptf-spacer"
               style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
             ></div>
-          </section>
+          </section> --> */}
         </div>
       </div>
 

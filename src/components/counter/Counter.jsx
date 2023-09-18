@@ -19,9 +19,9 @@ const counterUpContent = [
   },
   {
     startCount: "0",
-    endCount: "50",
-    metaText1: "OTHER BRAGGING",
-    metaText2: "POINT",
+    endCount: "5",
+    metaText1: "+ DEPARTMENT",
+    metaText2: "ENDORSEMENTS",
     animationDelay: "200",
   }
 ];

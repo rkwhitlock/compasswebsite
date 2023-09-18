@@ -91,7 +91,7 @@ const HomeDefault = () => {
                   </div>
                     <BlogOne />
                     <h2 className="h1 small-heading space-300 d-inline-flex margin-left-250">Here at COMPASS at UC San Diego, <br/> we have four key missions:</h2>
-                    <p className="margin-left-240  space-300 d-inline-flex">
+                    <p className="margin-left-500  space-300 d-inline-flex">
                     Create impactful career experiences for student members<br/> <br/> 
                     Assist local nonprofit organizations in the San Diego area using technical methods<br/><br/> 
                     Conducting research inquiries with the aim of fostering positive societal impact on a global scale<br/><br/> 
@@ -172,7 +172,7 @@ const HomeDefault = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <p className="margin-500">
+                      <p className="margin-504">
                         Announcements & Events
                       </p>
                       <h2 className="h1 d-inline-flex margin-260">

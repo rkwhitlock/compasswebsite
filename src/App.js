@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import AllRoutes from "./router/AllRoutes";
 import ScrollToTop from "./components/ScrollToTop";
 import AOS from "aos";
@@ -8,7 +8,7 @@ import "photoswipe/dist/photoswipe.css";
 import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
 import AnimatedCursor from "react-animated-cursor";
-
+import React, { useEffect } from "react";
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -17,7 +17,7 @@ const App = () => {
   }, []);
   return (
     <>
-      <Helmet>
+            <Helmet>
         <title>Moonex - Portfolio & Agency React Template</title>
         <meta name="description" content="Portfolio & Agency React Template" />
         <meta
@@ -42,6 +42,7 @@ const App = () => {
 
       <AllRoutes />
       {/* End All Routes */}
+
     </>
   );
 };

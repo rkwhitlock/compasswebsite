@@ -4,19 +4,19 @@ import Slider from "react-slick";
 
 const portfolioContent = [
   {
-    img: "work-1",
+    img: "agriculture1",
     categorie: "OCT 10, 2023",
-    title: "COMPASS GBM",
+    title: "THE COMPASS GBM",
   },
   {
-    img: "work-2",
-    categorie: "OCT 1, 2023",
-    title: "Global Project Meeting 1",
+    img: "agriculture1",
+    categorie: "Weekly - starting OCT 1, 2023",
+    title: "GLOBAL PROJECT MEETING",
   },
   {
-    img: "sd-homeless-1",
-    categorie: "OCT 3, 2023",
-    title: "Local Project Meeting 1",
+    img: "agriculture1",
+    categorie: "Weekly - starting OCT 3, 2023",
+    title: " LOCAL PROJECT MEETING",
   },
 ];
 
@@ -59,11 +59,11 @@ const Portfolio = () => {
             <article className="ptf-work ptf-work--style-3" key={i}>
               <div className="ptf-work__media">
                 <Link to="/works-showcase" className="ptf-work__link"></Link>
-                <img
-                  src={`assets/img/home/default/${item.img}.png`}
+              {/*  <img
+                  src={require(`../../assets/img/home/default/${item.img}.jpg`)}
                   alt=""
-                  loading="lazy"
-                />
+                  loading="eager"
+          />*/}
               </div>
               <div className="ptf-work__meta">
                 <div className="ptf-work__category">{item.categorie}</div>

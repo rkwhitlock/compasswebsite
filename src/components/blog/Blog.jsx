@@ -6,22 +6,23 @@ const blogContent = [
     img: "homesless2",
     cat: "Every Friday starting Week 1",
     title: "LOCAL PROJECT",
-    description: `Every other Friday starting Week 2++`,
+    description:`Focusing on the ongoing housing crisis in San Diego.  Working to build a math-powered application which will serve the specific needs of one 
+    homeless organization. We are aiming to publish a short paper at the end of Spring 2023
+    `
   },
   {
     img: "compass-1",
-    cat: "The only one FQ23",
+    cat: "BI-WEEKLY",
     date: "Oct 10, 2023",
     title: "COMPASS Webdev",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Nullam dignissim tortor vitae mattis tempor...`,
+    description: ``,
   },
   {
     img: "earth-2",
     cat: "Every Tuesday starting Week 1",
     title: "GLOBAL PROJECT",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Nullam dignissim tortor vitae mattis tempor...`,
+    description: `We are using climate, financial, and satellite data to predict famine in affected regions. We are conducting data-driven research to develop an intimate understanding of agricultural supply chains and their markets. Our learnings power in-house mathematical models which help us draw practical utility from our data.
+    `,
   },
 ];
 
@@ -59,9 +60,10 @@ const Blog = () => {
                     <Link to="/blog-details">{val.title}</Link>
                   </h3>
                 </header>
-                <div className="ptf-post__excerpt">
+                <div className="ptf-post__content">
                   <p>{val.description}</p>
                 </div>
+
                 <footer className="ptf-post__footer">
                   <Link className="ptf-read-more-link" to="/blog-details">
                     Continue
