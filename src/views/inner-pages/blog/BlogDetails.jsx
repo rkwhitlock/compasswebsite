@@ -7,7 +7,7 @@ import BlogPostAuthor from "../../../components/blog/BlogPostAuthor";
 import RelatedPost from "../../../components/blog/RelatedPost";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
-import HeaderDefault from "../../../components/header/HeaderDefault";
+import HeaderDefault from "../../../components/header/HeaderHomeDefault";
 import ImageGridTwo from "../../../components/image-grid/ImageGridTwo";
 import SocialFour from "../../../components/social/SocialFour";
 
@@ -28,7 +28,7 @@ const BlogDetails = () => {
             <header className="ptf-single-post__header ptf-single-post__header--style-1">
               <div className="container-xxl">
                 <h1 className="ptf-single-post__title">
-                  Simple Logo Collections
+                  Global Project
                 </h1>
                 <div className="ptf-single-post__meta">
                   <span className="cat">Inspiration</span>

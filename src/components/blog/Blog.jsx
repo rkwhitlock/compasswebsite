@@ -23,6 +23,7 @@ const blogContent = [
     title: "GLOBAL PROJECT",
     description: `We are using climate, financial, and satellite data to predict famine in affected regions. We are conducting data-driven research to develop an intimate understanding of agricultural supply chains and their markets. Our learnings power in-house mathematical models which help us draw practical utility from our data.
     `,
+
   },
 ];
 
@@ -62,6 +63,8 @@ const Blog = () => {
                 </header>
                 <div className="ptf-post__content">
                   <p>{val.description}</p>
+                  <br/>
+                  <a><Link to="/blog-details">{"Learn More"}</Link></a>
                 </div>
 
                 <footer className="ptf-post__footer">
