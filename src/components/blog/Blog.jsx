@@ -64,7 +64,7 @@ const Blog = () => {
                 <div className="ptf-post__content">
                   <p>{val.description}</p>
                   <br/>
-                  <a><Link to="/blog-details">{"Learn More"}</Link></a>
+                  {/*<a><Link to="/blog-details">{"Learn More"}</Link></a>*/}
                 </div>
 
                 <footer className="ptf-post__footer">

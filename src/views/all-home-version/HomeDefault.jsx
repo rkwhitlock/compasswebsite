@@ -290,7 +290,7 @@ const HomeDefault = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h2 className="h1 large-heading space-300 d-inline-flex">Join our voyage</h2>
+                    <h2 className="h1 large-heading space-400 d-inline-flex">Join our voyage</h2>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"

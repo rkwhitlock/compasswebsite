@@ -152,6 +152,19 @@
     padding: 0;
   }
 }
+.space-400{
+  padding-right: 0% !important;
+  padding: 0 35%;
+  //width: 150%;
+  textAlign: 'center';
+  @media (max-width: 1200px) {
+    padding: 0 20% !important;
+    margin-top: 30%;
+  }
+  @media (max-width: 767px) {
+    padding: 0;
+  }
+}
 .margin-left-250 {
   margin-right:22%;
   margin-top: -39%;
