@@ -7,9 +7,7 @@ const CopyRight = () => {
   return (
     <div className="row align-items-center justify-content-center">
       <div className="col-12 col-md">
-        <a href="index.html">
           <img src={logo} alt="" loading="lazy" style={{ width: '250px', height: '75px' }}/>
-        </a>
       </div>
       <div className="col-12 col-md text-md-center text-lg-center">
         <p className="ptf-footer-copyright has-black-color">
