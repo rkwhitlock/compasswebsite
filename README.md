@@ -1,5 +1,5 @@
 # Compass Website
-[Navigate to website](compassinstitution.com)
+[Navigate to website](https://compassinstitution.com)
 
 ## Description
 
