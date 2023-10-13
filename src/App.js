@@ -1,4 +1,3 @@
-import { BrowserRouter as Router } from "react-router-dom";
 import AllRoutes from "./router/AllRoutes";
 import ScrollToTop from "./components/ScrollToTop";
 import AOS from "aos";
@@ -7,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "photoswipe/dist/photoswipe.css";
 import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
-import AnimatedCursor from "react-animated-cursor";
 import React, { useEffect } from "react";
 const App = () => {
   useEffect(() => {
@@ -17,7 +15,7 @@ const App = () => {
   }, []);
   return (
     <>
-            <Helmet>
+      <Helmet>
         <title>Moonex - Portfolio & Agency React Template</title>
         <meta name="description" content="Portfolio & Agency React Template" />
         <meta
@@ -27,22 +25,11 @@ const App = () => {
       </Helmet>
       {/* End React Helmet for SEO */}
 
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
-        color="220, 53, 69"
-        outerAlpha={0.3}
-        innerScale={0.7}
-        outerScale={1.2}
-      />
-      {/* End Animated Cursor */}
-
       <ScrollToTop />
       {/* End Scroll To Top */}
 
       <AllRoutes />
       {/* End All Routes */}
-
     </>
   );
 };
