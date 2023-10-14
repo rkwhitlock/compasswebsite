@@ -24,7 +24,6 @@ const App = () => {
         />
       </Helmet>
       {/* End React Helmet for SEO */}
-
       <ScrollToTop />
       {/* End Scroll To Top */}
 

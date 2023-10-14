@@ -36,57 +36,106 @@ const WorksGrid = () => {
                       data-aos-delay="0"
                     >
                       <div className="container-y">
-
                         <div>
-                        <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "2rem", "--ptf-md": "4.5rem" }}
-              ></div>
+                          <div
+                            className="ptf-spacer"
+                            style={{
+                              "--ptf-xxl": "2rem",
+                              "--ptf-md": "4.5rem",
+                            }}
+                          ></div>
                           <h2 className="h1 large-heading">Contact Us</h2>
                           <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "1rem", "--ptf-md": "2.5rem" }}
-              ></div>
+                            className="ptf-spacer"
+                            style={{
+                              "--ptf-xxl": "1rem",
+                              "--ptf-md": "2.5rem",
+                            }}
+                          ></div>
                           <p>shrutiyamala@compass.com</p>
                         </div>
 
-                        <div className='container-avg'>
-
-                          <form className="container-inputs" action="https://formspree.io/f/xrgwlyqp"
-  method="POST">
-
+                        <div className="container-avg">
+                          <form
+                            className="container-inputs"
+                            action="https://formspree.io/f/xrgwlyqp"
+                            method="POST"
+                          >
                             <div class="form-group">
                               <label for="exampleInputEmail1">Name *</label>
-                              
-                              <div className="container-name-input">
-                                <input name="FirstName" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First" />
-                                 </div>
-                                 <div className="container-name-input">
-                                 <input name="SecondName" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last" />
-                             </div>
-                            </div>
-                            <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "1rem", "--ptf-md": "2.5rem" }}
-              ></div>
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Email address</label>
-                              <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "1rem", "--ptf-md": "2.5rem" }}
-              ></div>
-                            <div class="form-group">
-                              <label for="exampleFormControlTextarea1">Text *</label>
-                              <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Just expressing interest; have a project in mind; or any comments/questions, etc."></textarea>
-                            </div>
-                            
 
-                            <button type="submit" class="btn btn-secondary">Submit</button>
+                              <div className="container-name-input">
+                                <input
+                                  name="FirstName"
+                                  type="name"
+                                  class="form-control"
+                                  id="exampleInputEmail1"
+                                  aria-describedby="emailHelp"
+                                  placeholder="First"
+                                />
+                              </div>
+                              <div className="container-name-input">
+                                <input
+                                  name="SecondName"
+                                  type="name"
+                                  class="form-control"
+                                  id="exampleInputEmail1"
+                                  aria-describedby="emailHelp"
+                                  placeholder="Last"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ptf-spacer"
+                              style={{
+                                "--ptf-xxl": "1rem",
+                                "--ptf-md": "2.5rem",
+                              }}
+                            ></div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">
+                                Email address
+                              </label>
+                              <input
+                                name="email"
+                                type="email"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                placeholder="Enter email"
+                              />
+                              <small
+                                id="emailHelp"
+                                class="form-text text-muted"
+                              >
+                                We'll never share your email with anyone else.
+                              </small>
+                            </div>
+                            <div
+                              className="ptf-spacer"
+                              style={{
+                                "--ptf-xxl": "1rem",
+                                "--ptf-md": "2.5rem",
+                              }}
+                            ></div>
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">
+                                Text *
+                              </label>
+                              <textarea
+                                name="message"
+                                class="form-control"
+                                id="exampleFormControlTextarea1"
+                                rows="3"
+                                placeholder="Just expressing interest; have a project in mind; or any comments/questions, etc."
+                              ></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-secondary">
+                              Submit
+                            </button>
                           </form>
- {/*
+                          {/*
                           <div className="container-socials">
                             <div>
                               <h5>Instagram</h5>
@@ -104,11 +153,8 @@ const WorksGrid = () => {
                             </div>
                           </div>
                           */}
-
                         </div>
-
                       </div>
-
                     </div>
                   </div>
                 </div>
