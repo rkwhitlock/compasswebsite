@@ -25,8 +25,8 @@ const Blog = () => {
                 <div className="ptf-post__media__content">
                   <header className="ptf-post__header">
                     <div className="ptf-post__meta">
-                      <span className="cat">{val.cat}</span>
-                      <span className="date">{val.date}</span>
+                      {/* <span className="cat">{val.cat}</span>
+                      <span className="date">{val.date}</span> */}
                     </div>
                     <h3 className="ptf-post__title">{val.title}</h3>
                   </header>
@@ -35,8 +35,8 @@ const Blog = () => {
               <div className="ptf-post__content">
                 <header className="ptf-post__header">
                   <div className="ptf-post__meta">
-                    <span className="cat">{val.cat}</span>
-                    <span className="date">{val.date}</span>
+                    {/* <span className="cat">{val.cat}</span>
+                    <span className="date">{val.date}</span> */}
                   </div>
                   <h3 className="ptf-post__title">
                     <Link to="/blog-details">{val.title}</Link>
