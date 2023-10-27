@@ -45,11 +45,11 @@ const Blog = () => {
                 <div className="ptf-post__excerpt">
                   <p>{val.description}</p>
                 </div>
-                <footer className="ptf-post__footer">
+                {/* <footer className="ptf-post__footer">
                   <Link className="ptf-read-more-link" to="/blog-details">
                     Continue
                   </Link>
-                </footer>
+                </footer> */}
               </div>
             </article>
           </div>
