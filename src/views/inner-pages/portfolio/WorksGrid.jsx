@@ -52,7 +52,7 @@ const WorksGrid = () => {
                               "--ptf-md": "2.5rem",
                             }}
                           ></div>
-                          <p>shrutiyamala@compass.com</p>
+                          <p>shrutiyamala@compassinstitution.com</p>
                         </div>
 
                         <div className="container-avg">
