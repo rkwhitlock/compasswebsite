@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const menuContent = [
-  {
-    name: "Home",
-    activeClass: "sf-with-ul",
-    menuClass: "two-columns current-menu-item",
-    path: "/home-default",
-  },
+  // {
+  //   name: "Home",
+  //   activeClass: "sf-with-ul",
+  //   menuClass: "two-columns current-menu-item",
+  //   path: "/home-default",
+  // },
   {
     name: "About",
     activeClass: "",
