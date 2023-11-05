@@ -1,32 +1,173 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Masonry from "react-masonry-css";
 import { Helmet } from "react-helmet";
-import HeaderDefault from "../../components/header/HeaderHomeDefault";
+import HeaderHomeDefault from "../../components/header/HeaderHomeDefault";
 import CopyRight from "../../components/footer/copyright/CopyRight";
 import Footer from "../../components/footer/Footer";
-import TeamTwo from "../../components/team/TeamTwo";
 import Portfolio from "../../components/portfolio/Portfolio";
-import Portfolio2 from "../../components/portfolio/Portfolio2";
-import Approach from "../../components/service/Approach";
-import TestimonialThree from "../../components/testimonial/TestimonialThree";
-import Brand from "../../components/brand/Brand";
-import Counter from "../../components/counter/Counter";
-import Testimonial from "../../components/testimonial/Testimonial";
+import { Gallery, Item } from "react-photoswipe-gallery";
 
-const Team = () => {
+const board = [
+  {
+    img: "asoumah",
+    cat: "Alejandro Soumah",
+    date: "Global Project",
+    title: "President",
+    description: ``,
+  },
+  {
+    img: "tchoi",
+    cat: "Taerim Choi",
+    date: "Board",
+    title: "Vice President Operations",
+    description: ``,
+  },
+  {
+    img: "mperona",
+    cat: "Matteo Perona",
+    date: "Local Project",
+    title: "Vice President Technical",
+    description: ``,
+  },
+  {
+    img: "syamala",
+    cat: "Shruti Yamala",
+    date: "Board",
+    title: "VP Operations Intern",
+    description: ``,
+  },
+  {
+    img: "mishimoto",
+    cat: "Madeline Ishimoto",
+    date: "Board",
+    title: "Head Secretary",
+    description: ``,
+  },
+  {
+    img: "rwhitlock",
+    cat: "Reese Whitlock",
+    date: "Global Project & Web Development",
+    title: "Chief Engineer",
+    description: ``,
+  },
+  {
+    img: "tding",
+    cat: "Tammy Ding",
+    date: "Design",
+    title: "Head Designer",
+    description: ``,
+  },
+  {
+    img: "jguzman",
+    cat: "Joseph Guzman",
+    date: "Board",
+    title: "Lead Financial Officer",
+    description: ``,
+  },
+  {
+    img: "zhasan",
+    cat: "Zoya Hasan",
+    date: "Board",
+    title: "Director of Communications",
+    description: ``,
+  },
+];
+
+const global = [
+  {
+    img: "hsingh",
+    cat: "Hartej Singh",
+    date: "Global Project",
+    title: "Quantitative Analyst",
+    description: ``,
+  },
+  {
+    img: "hwang",
+    cat: "Harry Wang",
+    date: "Global Project",
+    title: "Quantitative Modeling Engineer",
+    description: ``,
+  },
+  {
+    img: "adevineni",
+    cat: "Anish Devineni",
+    date: "Global Project",
+    title: "Engineer",
+    description: ``,
+  },
+];
+
+const local = [
+  {
+    img: "mprasad",
+    cat: "Maanasa Prasad",
+    date: "Local Project",
+    title: "Software Engineer",
+    description: ``,
+  },
+];
+
+const dnd = [
+  {
+    img: "ekim",
+    cat: "Elise Kim",
+    date: "Design",
+    title: "Lead Designer",
+    description: ``,
+  },
+  {
+    img: "arubin",
+    cat: "Ava Rubin",
+    date: "Development",
+    title: "UX/UI Designer",
+    description: ``,
+  },
+  {
+    img: "knguyen",
+    cat: "Khoi Nguyen",
+    date: "Design",
+    title: "UX/UI and Marketing/Branding Designer",
+    description: ``,
+  },
+];
+
+const sections = [
+  { title: "Board", pictures: board },
+  { title: "Global Project", pictures: global },
+  { title: "Local Project", pictures: local },
+  { title: "Design & Web Development", pictures: dnd },
+];
+
+const breakpointColumnsObj = {
+  default: 4,
+  1100: 3,
+  768: 2,
+  500: 1,
+};
+
+const WorksCarousel = () => {
   return (
-    <div>
+    <div className="ptf-site-wrapper animsition ptf-is--works-carousel">
       <Helmet>
-        <title>COMPASS - ABOUT</title>
+        <title>COMPASS - Team</title>
       </Helmet>
       {/* End Page SEO Content */}
+      <div className="ptf-site-wrapper__inner">
+        <HeaderHomeDefault />
+        {/* End  HeaderHomeDefault */}
 
-      <HeaderDefault />
-      {/* End Header */}
-
-      <div className="ptf-main">
-        <div className="ptf-page ptf-page--team">
-        <section>
+        <div className="main">
+          <div className="ptf-page ptf-page--portfolio-carousel">
+            {/*=============================================
+                End Portfolio Section
+              ============================================== */}
+            <section>
+              {/* spacer */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
               <div className="container-xxl">
                 <div className="row align-items-center">
                   <div className="col-12 col-md-9">
@@ -36,34 +177,20 @@ const Team = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                       <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "9.5rem" }}
-              ></div>
-              <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "7.5rem", "--ptf-md": " 3.75rem" }}
-                ></div>
-                      <h2 className="h1 large-heading space-500 d-inline-flex">
-                        COMPASS
+                      <h2 className="h1 large-heading d-inline-flex">
+                        Meet the Team
                       </h2>
-                      
-                     
-                      <p className="margin-130">COMMUNITY-ORIENTED MATHEMATICS PROJECTS FOR AMBITIOUS STEM STUDENTS</p>
                     </div>
-                   
                   </div>
-                  
                   <div className="col-12 col-md-3 text-md-end">
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-md": "1.875rem" }}
                     ></div>
-                    
+                    {/* <!--Animated Block--> */}
                   </div>
-                   
-                  </div>
+                </div>
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
@@ -74,141 +201,91 @@ const Team = () => {
                   className="ptf-animated-block"
                   data-aos="fade"
                   data-aos-delay="0"
-                >
-                  {/* <!--Content Slider--> */}
-                  <Portfolio2 />
-                  
-                </div>
-                
+                ></div>
               </div>
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "5rem", "--ptf-md": "9.5rem" }}
-              ></div>
-              
-              {/* <!--Spacer--> */}
-              <p className="margin-90">We're a team of UCSD students passionate about integrating <b>math</b>, <b>technology</b>, <b>and human-centered design</b> to make a difference in the real world.</p>
-                
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "9.5rem" }}
-              ></div>
-              
-              
-            </section>
-            <div className="container-xxl">
-            <h2 className="h1 large-heading space-300 d-inline-flex">
-                        Our Mission
-                      </h2>
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                   <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "2rem", "--ptf-md": "5rem" }}
-              ></div>
-                  {/* <!--Content Slider--> */}
-                  <div className="ptf-content-slider swiper-container">
-                    {/* <!--Testimonial--> */}
-                    <TestimonialThree/>
-                  </div>
-                </div>
-                {/* End Testimonial */}
-              </div>
-           
-
-              <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-              <div className="container-xxl">
-              
-                {/* End .row */}
-                <div className="row">
-                  <div className="col-12">
-                    {/* <!--Spacer--> */}
+              <div>
+                {sections.map((item) => (
+                  <div>
+                    {" "}
+                    <div className="container-xl">
+                      <div className="col-12 col-md-9">
+                        <h2 className=" h1 small-heading d-inline-flex">
+                          {item.title}
+                        </h2>
+                      </div>
+                    </div>
                     <div
                       className="ptf-spacer"
-                      style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
+                      style={{ "--ptf-xxl": "2rem", "--ptf-md": "2rem" }}
                     ></div>
-                    {/* <!--Divider--> */}
-                    <div className="ptf-divider"></div>
-                    {/* <!--Spacer--> */}
+                    <Masonry
+                      breakpointCols={breakpointColumnsObj}
+                      className="my-masonry-grid"
+                      columnClassName="my-masonry-grid_column"
+                    >
+                      {item.pictures.map((item, i) => (
+                        <div className="grid-item" key={i}>
+                          <article className="ptf-post ptf-post--style-2">
+                            <div className="ptf-post__media">
+                              <img
+                                src={`assets/img/team/COMPASS HEADSHOTS/${item.img}.jpg`}
+                                alt=""
+                                loading="lazy"
+                              />
+                              <div className="ptf-post__media__content">
+                                <header className="ptf-post__header">
+                                  <div className="ptf-post__meta">
+                                    <span className="cat">{item.cat}</span>
+                                    <span className="date">{item.date}</span>
+                                  </div>
+                                  <h3 className="ptf-post__title">
+                                    {item.title}
+                                  </h3>
+                                </header>
+                              </div>
+                            </div>
+                            {/* End .ptf-post */}
+                            <div className="ptf-post__content">
+                              <header className="ptf-post__header">
+                                <div className="ptf-post__meta">
+                                  <span className="cat">{item.cat}</span>
+                                  <span className="date">{item.date}</span>
+                                </div>
+                                <h3 className="ptf-post__title">
+                                  {item.title}
+                                </h3>
+                              </header>
+                              <div className="ptf-post__excerpt">
+                                {item.description}
+                              </div>
+                              <footer className="ptf-post__footer"></footer>
+                            </div>
+                            {/* End .ptf-post__content */}
+                          </article>
+                        </div>
+                      ))}
+                    </Masonry>
                     <div
                       className="ptf-spacer"
-                      style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+                      style={{ "--ptf-xxl": "2rem", "--ptf-md": "2rem" }}
                     ></div>
                   </div>
-                </div>
-                {/* End .row */}
-
-                <Counter />
+                ))}
               </div>
+
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "9rem" }}
               ></div>
             </section>
-          {/*<!--jmm]
-          ssasas
-          <section>
-            {/* <!--Spacer-->
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-            ></div>
-            <div className="container-xxl">
-              <div className="row">
-                <div className="col-xl-10">
-                  {/* <!--Animated Block--> 
-                  <div
-                    className="ptf-animated-block"
-                    data-aos="fade"
-                    data-aos-delay="0"
-                  >
-                    <h2 className="h1 large-heading space-300 d-inline-flex">Meet the Team</h2>
-                    {/* <!--Spacer--> 
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "2.5rem" }}
-                    ></div>
-                    <p className="fz-24 margin-120">
-                      Meet our talents team of creative, fun-lovers and magic
-                      makers.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* End .row 
-
-              {/* <!--Spacer-->
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
-              ></div>
-
-              <div className="ptf-team-member-grid">
-                <TeamTwo />
-              </div>
-            </div>
-            {/* <!--Spacer--> 
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-            ></div>
-          </section> --> */}
+          </div>
+          {/* End .ptf-page */}
         </div>
       </div>
+      {/* End .main */}
 
-      {/*=============================================
-        Start Footer
-        ============================================== */}
+      {/* <!--Footer--> */}
       <footer className="ptf-footer ptf-footer--style-1">
         <div className="container-xxl">
           <div className="ptf-footer__top">
@@ -220,7 +297,10 @@ const Team = () => {
         </div>
       </footer>
     </div>
+    // End .ptf-is--blog-grid
   );
 };
 
-export default Team;
+export default WorksCarousel;
+
+//export default BlogMasonryGrid;

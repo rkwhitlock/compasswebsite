@@ -34,6 +34,7 @@ import WorksShowcase from "../views/inner-pages/portfolio/WorksShowcase";
 // Others
 import Contact from "../views/inner-pages/Contact";
 import PricingInner from "../views/inner-pages/PricingInner";
+import About from "../views/inner-pages/About";
 import Team from "../views/inner-pages/Team";
 import ComingSoon from "../views/inner-pages/ComingSoon";
 import Faq from "../views/inner-pages/Faq";
@@ -73,13 +74,14 @@ const AllRoutes = () => {
         <Route path="/blog-details-sidebar" element={<BlogDetailsSidebar />} />
 
         {/* Portfolio */}
-        <Route path="/works-grid" element={<WorksGrid />} />
+        <Route path="/ContactUs" element={<WorksGrid />} />
         <Route path="/works-masonry" element={<WorksMasonry />} />
         <Route path="/works-listing" element={<WorksListing />} />
         <Route path="/works-carousel" element={<WorksCarousel />} />
         <Route path="/works-showcase" element={<WorksShowcase />} />
 
         {/* others */}
+        <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
         <Route path="/pricing" element={<PricingInner />} />
         <Route path="/contact" element={<Contact />} />

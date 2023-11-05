@@ -52,6 +52,13 @@ const HomeDefault = () => {
             {/*=============================================
                 Start Portfolio Section
               ============================================== */}
+
+            {/* <!--Spacer--> */}
+            <div
+              className="ptf-spacer"
+              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+            ></div>
+
             <section>
               {/* <!--Spacer--> */}
               <div
@@ -70,6 +77,7 @@ const HomeDefault = () => {
                     style={{
                       "--bs-gutter-x": "3.75rem",
                       "--bs-gutter-y": "7.5rem",
+                      "justify-content": "space-between",
                     }}
                   >
                     <div
@@ -84,11 +92,11 @@ const HomeDefault = () => {
                       ></div>
                     </div>
                     <BlogOne />
-                    <h2 className="h1 small-heading space-300 d-inline-flex margin-left-250">
+                    <h2 className="h1 small-heading space-300 margin-left-250">
                       Here at COMPASS at UC San Diego, <br /> we have four key
                       missions:
                     </h2>
-                    <p className="margin-left-500  space-300 d-inline-flex">
+                    <p className="margin-left-500  space-300">
                       Create impactful career experiences for student members
                       <br /> <br />
                       Assist local nonprofit organizations in the San Diego area

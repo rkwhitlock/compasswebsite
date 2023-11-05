@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const blogContent = [
   {
     img: "geisel2",
-    
   },
 ];
 
@@ -15,7 +14,7 @@ const Blog = () => {
         <div className="col-xl-4 col-lg-4" key={i}>
           <div className="grid-item filter-1 filter-4">
             {/* <!--Blog Post--> */}
-            <article className="ptf-post ptf-post--style-4">
+            <article className="ptf-post ptf-post--style-4 geisel-image">
               <div className="ptf-post__media">
                 <img
                   src={`assets/img/home/default/${val.img}.webp`}
