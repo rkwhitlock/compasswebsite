@@ -12,18 +12,22 @@ const menuContent = [
     name: "About",
     activeClass: "",
     menuClass: "",
-    path: "/Team",
+    path: "/About",
   },
   {
     name: "Contact Us",
     activeClass: "",
     menuClass: "",
-    path: "/works-grid",
+    path: "/ContactUs",
   },
   {
     name: "Join Us",
     path: "https://forms.office.com/Pages/ResponsePage.aspx?id=aRUEARuygkySi8oeAKYsqL8nynWLwLVDh1-QxJgaj6VUM1ZDRVlNWTA0Wk5VWFVNRlUwUzA5S1hJQy4u&embed=true",
     target: "_blank",
+  },
+  {
+    name: "Meet the Team",
+    path: "/Team",
   },
 ];
 

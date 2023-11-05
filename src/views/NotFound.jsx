@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import HeaderDefault from "../components/header/HeaderDefault";
+import HeaderHomeDefault from "../components/header/HeaderHomeDefault";
 import CopyRight from "../components/footer/copyright/CopyRight";
 import Footer from "../components/footer/Footer";
 
@@ -9,11 +9,11 @@ const NotFound = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - 404 Page</title>
+        <title>COMPASS - 404 Page</title>
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderDefault />
+      <HeaderHomeDefault />
       {/* End Header */}
 
       <div className="ptf-main">

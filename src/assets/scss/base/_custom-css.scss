@@ -106,10 +106,10 @@
     background-color: var(--ptf-color-11);
   }
 }
-.margin_bottom_30{
+.margin_bottom_30 {
   margin-bottom: -10%;
 }
-.margin_top_and_bottom{
+.margin_top_and_bottom {
   margin-top: 5%;
 }
 
@@ -143,6 +143,11 @@
     font-size: px2rem(30px);
     font-weight: normal;
   }
+
+  .ptf-post--style-1 .ptf-post__excerpt {
+    font-size: px2rem(30px);
+    font-weight: normal;
+  }
 }
 
 /* SECTION: HOME TRENDING
@@ -168,10 +173,8 @@
   .ptf-nav--default .sf-menu > li.current-menu-item > a,
   .ptf-nav--default .sf-menu > li.sfHover > a,
   .ptf-nav--default .sf-menu > li:hover > a {
-    color: var(--ptf-color-white);
+    color: var(--ptf-color-black);
   }
-
-
 }
 
 /* SECTION: HOME STUDIO
@@ -193,6 +196,11 @@
 
 /* SECTION: HOME FREELANCER
 -------------------------------------------- */
+.geisel-image {
+  @include mq("xlarge") {
+    display: none;
+  }
+}
 
 .ptf-is--home-freelancer {
   .ptf-custom--1528 {

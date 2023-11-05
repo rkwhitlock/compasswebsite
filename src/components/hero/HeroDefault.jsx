@@ -5,7 +5,8 @@ const heroContent = {
   subTitle1: " ",
   subTitle2: "",
   subTitleDescription1: "Mathematical Modeling for Social Good",
-  detailsDescription: "We're a student run organization partnering with local and international organizations to amplify their impact through mathematics, computer science and data science.",
+  detailsDescription:
+    "We're a student run organization partnering with local and international organizations to amplify their impact through mathematics, computer science and data science.",
 };
 
 const HeroDefault = () => {
@@ -110,13 +111,6 @@ const HeroDefault = () => {
                 data-aos-delay="0"
               >
                 {/* <!--Button--> */}
-                <a
-                  className="ptf-btn ptf-btn--primary ptf-btn--inversed"
-                  href="about-us.html"
-                  target="_self"
-                >
-                  Learn More
-                </a>
               </div>
             </div>
           </div>
@@ -126,20 +120,16 @@ const HeroDefault = () => {
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "3.75rem" }}></div>
         {/* <!--Animated Block--> */}
-        <div
-          className="ptf-animated-block"
-          data-aos="fade"
-          data-aos-delay="50"
-        >
+        <div className="ptf-animated-block" data-aos="fade" data-aos-delay="50">
           {/* <!--Mask Image--> */}
-          <div className="ptf-mask-image logo-small" style={{ width: "600px"}}>
+          <div className="ptf-mask-image logo-small" style={{ width: "600px" }}>
             <img
               className="spin"
               src={require("../../assets/img/home/default/compass-icon.png")}
               alt=""
               loading="eager"
             />
-            
+
             <img
               src="assets/img/root/home-default/circle-logo.png"
               alt=""
