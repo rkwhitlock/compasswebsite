@@ -17,16 +17,20 @@ const menuContent = [
   },
   {
     name: "About Us",
-    path: "/Team", // needs to be changed
+    path: "/About", // needs to be changed
   },
   {
     name: "Contact Us",
-    path: "/works-grid", // needs to be changed
+    path: "/ContactUs", // needs to be changed
   },
   {
     name: "Join Us",
     path: "https://forms.office.com/Pages/ResponsePage.aspx?id=aRUEARuygkySi8oeAKYsqL8nynWLwLVDh1-QxJgaj6VUM1ZDRVlNWTA0Wk5VWFVNRlUwUzA5S1hJQy4u&embed=true",
     target: "_blank",
+  },
+  {
+    name: "Meet the Team",
+    path: "/Team",
   },
 ];
 

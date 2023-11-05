@@ -320,7 +320,8 @@
             border-radius: 50%;
             opacity: 0;
 
-            transition: opacity var(--ptf-transition-duration) var(--ptf-transition-easing);
+            transition: opacity var(--ptf-transition-duration)
+              var(--ptf-transition-easing);
 
             .ptf-header--style-5 & {
               display: none;
@@ -332,10 +333,10 @@
       &:hover > a,
       &.sfHover > a,
       &.current-menu-ancestor > a {
-        color: var(--ptf-accent-1);
+        color: var(--ptf-color-black);
 
         .ptf-header--style-5 & {
-          color: var(--ptf-color-white);
+          color: var(--ptf-color-black);
         }
 
         > span::after {
@@ -411,10 +412,10 @@
         &:hover > a,
         &.current-menu-ancestor > a,
         &.sfHover > a {
-          color: var(--ptf-accent-1);
+          color: var(--ptf-color-black);
 
           .ptf-header--style-5 & {
-            color: var(--ptf-color-white);
+            color: var(--ptf-color-black);
           }
         }
       }
