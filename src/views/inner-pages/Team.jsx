@@ -119,7 +119,7 @@ const dnd = [
   {
     img: "arubin",
     cat: "Ava Rubin",
-    date: "Development",
+    date: "Web Development",
     title: "UX/UI Designer",
     description: ``,
   },
@@ -127,7 +127,7 @@ const dnd = [
     img: "knguyen",
     cat: "Khoi Nguyen",
     date: "Design",
-    title: "UX/UI and Marketing/Branding Designer",
+    title: "UX/UI & Marketing/Brand Designer",
     description: ``,
   },
 ];
