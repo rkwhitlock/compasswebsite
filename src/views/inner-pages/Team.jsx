@@ -48,7 +48,7 @@ const board = [
     img: "rwhitlock",
     cat: "Reese Whitlock",
     date: "Global Project & Web Development",
-    title: "Chief Engineer",
+    title: "Frontend Dev & Chief Engineer",
     description: ``,
   },
   {
@@ -70,6 +70,13 @@ const board = [
     cat: "Zoya Hasan",
     date: "Board",
     title: "Director of Communications",
+    description: ``,
+  },
+  {
+    img: "kyu",
+    cat: "Kevin Yu",
+    date: "Global Project",
+    title: "Software Engineer & Managing Events Coordinator",
     description: ``,
   },
 ];
@@ -104,6 +111,27 @@ const local = [
     cat: "Maanasa Prasad",
     date: "Local Project",
     title: "Software Engineer",
+    description: ``,
+  },
+  {
+    img: "dpark",
+    cat: "Daniel Park",
+    date: "Local Project",
+    title: "Data Scientist",
+    description: ``,
+  },
+  {
+    img: "tpham",
+    cat: "Tracy Pham",
+    date: "Local Project",
+    title: "Data Scientist",
+    description: ``,
+  },
+  {
+    img: "ama",
+    cat: "Adalina Ma",
+    date: "Local Project",
+    title: "Data Engineer",
     description: ``,
   },
 ];
