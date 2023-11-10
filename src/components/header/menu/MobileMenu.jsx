@@ -20,6 +20,10 @@ const menuContent = [
     path: "/About", // needs to be changed
   },
   {
+    name: "Meet the Team",
+    path: "/Team",
+  },
+  {
     name: "Contact Us",
     path: "/ContactUs", // needs to be changed
   },
@@ -27,10 +31,6 @@ const menuContent = [
     name: "Join Us",
     path: "https://forms.office.com/Pages/ResponsePage.aspx?id=aRUEARuygkySi8oeAKYsqL8nynWLwLVDh1-QxJgaj6VUM1ZDRVlNWTA0Wk5VWFVNRlUwUzA5S1hJQy4u&embed=true",
     target: "_blank",
-  },
-  {
-    name: "Meet the Team",
-    path: "/Team",
   },
 ];
 
