@@ -20,6 +20,11 @@ const menuContent = [
     path: "/About", // needs to be changed
   },
   {
+    name: "Global Project",
+    path: "https://globalprojectwebsite.azurewebsites.net/",
+    target: "_blank",
+  },
+  {
     name: "Meet the Team",
     path: "/Team",
   },
