@@ -149,7 +149,7 @@ h1,
   line-height: 1.2;
   font-weight: 200;
   transform: "translate(0px, -50%)";
-  textAlign: "center";
+  textalign: "center";
   @media (max-width: 576px) {
     font-size: px2rem(50px);
   }
@@ -159,19 +159,22 @@ h1,
       font-size: px2rem(80px);
       line-height: 1.1;
       display: "flex";
-      textAlign: "center";
+      textalign: "center";
     }
   }
 }
-.small-heading{
+.small-heading {
   font-size: 45px;
+}
+
+.container-l {
+  padding: 30px;
 }
 
 h2,
 .h2 {
   font-family: var(--ptf-secondary-font) !important;
   font-size: px2rem(48px);
-  
 }
 
 h3,

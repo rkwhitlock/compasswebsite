@@ -196,7 +196,7 @@ const WorksCarousel = () => {
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
-              <div className="container-xxl">
+              <div>
                 <div className="row align-items-center">
                   <div className="col-12 col-md-9">
                     {/* <!--Animated Block--> */}
@@ -205,25 +205,17 @@ const WorksCarousel = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading d-inline-flex">
+                      <h2 className="h1 container-l d-inline-flex">
                         Meet the Team
                       </h2>
                     </div>
                   </div>
                   <div className="col-12 col-md-3 text-md-end">
                     {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-md": "1.875rem" }}
-                    ></div>
                     {/* <!--Animated Block--> */}
                   </div>
                 </div>
                 {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "6.25rem" }}
-                ></div>
                 {/* <!--Animated Block--> */}
                 <div
                   className="ptf-animated-block"
@@ -235,12 +227,8 @@ const WorksCarousel = () => {
                 {sections.map((item) => (
                   <div>
                     {" "}
-                    <div className="container-xl">
-                      <div className="col-12 col-md-9">
-                        <h2 className=" h1 small-heading d-inline-flex">
-                          {item.title}
-                        </h2>
-                      </div>
+                    <div className="container-l">
+                      <h2 className="h1 small-heading">{item.title}</h2>
                     </div>
                     <div
                       className="ptf-spacer"

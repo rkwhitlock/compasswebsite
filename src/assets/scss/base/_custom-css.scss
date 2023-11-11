@@ -31,11 +31,8 @@
 /* SECTION: PAGE BLOG MASONRY
 -------------------------------------------- */
 
-.ptf-page--blog-masonry .container-xxl--custom {
-  @media (min-width: 1580px) {
-    max-width: 100% !important;
-    padding: 0 px2rem(60px);
-  }
+.ptf-page--blog-masonry .container-l {
+  padding: 30px;
 }
 
 /* SECTION: PAGE ABOUT US
