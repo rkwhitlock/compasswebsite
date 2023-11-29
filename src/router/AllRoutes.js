@@ -33,6 +33,7 @@ import WorksShowcase from "../views/inner-pages/portfolio/WorksShowcase";
 
 // Others
 import Contact from "../views/inner-pages/Contact";
+import GlobalProject from "../views/inner-pages/GlobalProject";
 import PricingInner from "../views/inner-pages/PricingInner";
 import About from "../views/inner-pages/About";
 import Team from "../views/inner-pages/Team";
@@ -75,6 +76,7 @@ const AllRoutes = () => {
 
         {/* Portfolio */}
         <Route path="/ContactUs" element={<WorksGrid />} />
+        <Route path="/test" element={<GlobalProject />} />
         <Route path="/works-masonry" element={<WorksMasonry />} />
         <Route path="/works-listing" element={<WorksListing />} />
         <Route path="/works-carousel" element={<WorksCarousel />} />

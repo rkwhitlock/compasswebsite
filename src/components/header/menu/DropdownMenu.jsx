@@ -20,8 +20,7 @@ const menuContent = [
   },
   {
     name: "Global Project",
-    path: "https://globalprojectwebsite.azurewebsites.net/",
-    target: "_blank",
+    path: "/test",
   },
   {
     name: "Contact Us",
