@@ -4,23 +4,21 @@ import SocialTwo from "../social/SocialTwo";
 const BlogPostAuthor = () => {
   return (
     <div className="ptf-about-author">
-      <div className="ptf-about-author__avatar">
-        <img
-          src="assets/img/root/author-avatar.png"
-          alt="author"
-          loading="lazy"
-        />
-      </div>
       <div className="ptf-about-author__content">
         <div className="ptf-about-author__header">
-          <h6>Eden Hazard</h6>
-          <span>Content Editor</span>
+          <h6>Celeste Walstrom-Vangor</h6>
+          <span>Content Writor</span>
         </div>
         <div className="ptf-about-author__text">
           <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum sed ut perspiciatis
-            unde. Lorem ispum dolor sit amet.
+            Take a look at our{" "}
+            <a
+              className="text-decoration-underline has-accent-4"
+              href="https://medium.com/@compassinstitution"
+            >
+              Medium Articles
+            </a>{" "}
+            !
           </p>
         </div>
         <div className="has-black-color blog-social">

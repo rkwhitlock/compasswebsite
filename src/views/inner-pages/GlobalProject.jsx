@@ -35,30 +35,32 @@ const GlobalProject = () => {
                 <div className="row">
                   <div className="col-xl-8 offset-xl-2">
                     {/* <!--Post Excerpt--> */}
-                    <div className="ptf-single-post__excerpt">
-                      To mark the first UK show of artist Henri Barande, graphic
-                      designer{" "}
-                      <span className="has-accent-1">Pavel Murren</span> and
-                      German studio Schultzschultz have created The Lodge
-                      Wooden.
+                    <div
+                      className="ptf-single-post__header ptf-single-post__header--style-1"
+                      style={{ textAlign: "center", marginTop: "-16rem" }}
+                    >
+                      <h3>A Prediction of Rice Prices in India</h3>{" "}
                     </div>
+                    {/* Sub Heading */}
+                    <h4 style={{ textAlign: "center", marginTop: "-4rem" }}>
+                      COMPASS Institution at UC San Diego
+                    </h4>
 
                     {/* <!--Post Content--> */}
-                    <div className="ptf-single-post__content">
+                    <div
+                      className="ptf-single-post__content"
+                      style={{ textAlign: "center", marginTop: "2rem" }}
+                    >
                       <p>
-                        Today most people get on average 4 to 6 hours of
-                        exercise every day, and make sure that everything they
-                        put in their mouths is not filled with sugars or
-                        preservatives, but they pay no attention to their mental
-                        health, no vacations, not even the occasional long
-                        weekend. All of this for hopes of one day getting that
-                        big promotion.
+                        We are the global project branch of COMPASS! We are
+                        working with international organizations to predict food
+                        insecurity by creating mathematical models with
+                        quantitative data. Ultimately, we will build a world
+                        heat map which will predict food insecurity using real
+                        time data partnered with data from our predictive
+                        models.
                       </p>
-                      <p>
-                        Coventry is a city with a thousand years of history that
-                        has plenty to offer the visiting tourist. Located in the
-                        heart of Warwickshire.
-                      </p>
+
                       {/* <!--Spacer--> */}
                       <div
                         className="ptf-spacer"
@@ -72,12 +74,7 @@ const GlobalProject = () => {
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "5rem", "--ptf-md": "2.5rem" }}
                       ></div>
-                      <p>
-                        The short answer is yes. According to Kross, when you
-                        think of yourself as another person, it allows you lorem
-                        ispumgive yourself more. Notre dame at sumeobjective,
-                        helpful feedback.
-                      </p>
+
                       {/* <!--Spacer--> */}
                       <div
                         className="ptf-spacer"
@@ -98,23 +95,17 @@ const GlobalProject = () => {
                           </div>
                           <div className="ptf-twitter-review__meta">
                             <h6 className="ptf-twitter-review__author">
-                              Thiago Alcantara
+                              ALEJANDRO SOUMAH
                             </h6>
                             <div className="ptf-twitter-review__info">
-                              <a href="#">@thiago.lfc</a> - 15 Dec, 2022
+                              <a href="#">Global Project President</a> - Dec
+                              2022
                             </div>
                           </div>
-                          <div className="ptf-twitter-review__icon">
-                            <i className="socicon-twitter"></i>
-                          </div>
+                          <div className="ptf-twitter-review__icon"></div>
                         </div>
                         <div className="ptf-twitter-review__content">
-                          <p>
-                            <a href="#">@moonex</a> - a studio with passionate,
-                            profressional & full creativity. Much more things
-                            that i’m expect. Really awesome & satisfied, alway
-                            recommended!
-                          </p>
+                          <p>Insert Quote here</p>
                         </div>
                       </div>
                       {/* <!--Spacer--> */}
@@ -122,7 +113,8 @@ const GlobalProject = () => {
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}
                       ></div>
-                      <h3>Defaulting to Mindfulness</h3>
+                      <h3>OUR MISSION</h3>
+
                       {/* <!--Spacer--> */}
                       <div
                         className="ptf-spacer"
@@ -132,21 +124,34 @@ const GlobalProject = () => {
                         }}
                       ></div>
                       <p>
-                        Cray post-ironic plaid, Helvetica keffiyeh tousled
-                        Carles banjo before they sold out blog photo booth Marfa
-                        semiotics Truffaut. Mustache Schlitz next level blog
-                        Williamsburg, deep v typewriter tote bag Banksy +1
-                        literally.
+                        Our mission in the global project of COMPASS, is to
+                        develop a prediction-based food insecurity heatmap for
+                        the north east region of Bihar, India influenced by the
+                        World Food Programme HungerMap. Eventually, we hope to
+                        be able to expand this heatmap and predict food
+                        insecurity around the world. There are three branches of
+                        the global project: data analysts, quantitative math
+                        modelers, and software engineers. Currently, the data
+                        scientists are working to utilize real-time, pricing,
+                        reference, time series, and machine-readable content to
+                        extract the future prices of rice and wheat. They then
+                        send that data to the mathematical model made by the
+                        quantitative model team to generate real time
+                        predictions as well as make any adjustments needed so it
+                        can provide accurate price predictions in real-time. The
+                        software engineers are working on making a website that
+                        uploads the data from the other branches to a
+                        comprehensive heatmap. The end goal of the project is to
+                        have collected the data, organize it, and then upload it
+                        to a map that uses current data to predict food
+                        insecurity around the world.
                       </p>
                       <ul style={{ lineHeight: "2" }}>
+                        <li>Clean the data into reable datasets</li>
                         <li>
-                          Welsh novelist Sarah Waters sums it up eloquently
+                          Create linear regressions to forcast food insecurity
                         </li>
-                        <li>
-                          In their classic book, Creativity in Business, based
-                          on a popular course they co-taught
-                        </li>
-                        <li>Novelist and screenwriter Steven Pressfield</li>
+                        <li>Render the data onto a real-time heatmap</li>
                       </ul>
                       {/* <!--Spacer--> */}
                       <div
@@ -154,15 +159,14 @@ const GlobalProject = () => {
                         style={{ "--ptf-xxl": "1.875rem" }}
                       ></div>
                       <p>
-                        That immediately brought to mind one of{" "}
+                        Take a took at what we have{" "}
                         <a
                           className="text-decoration-underline has-accent-4"
-                          href="#"
+                          href="https://globalprojectwebsite.azurewebsites.net/"
                         >
-                          my fondest
+                          so far
                         </a>{" "}
-                        memories, involving my daughter when she was just a
-                        toddler of one.
+                        .
                       </p>
                     </div>
 
@@ -170,9 +174,7 @@ const GlobalProject = () => {
                     <footer className="ptf-single-post__footer">
                       {/* <!--Post Tags--> */}
                       <div className="ptf-post-tags">
-                        <a href="#">WordPress</a>
-                        <a href="#">Theme</a>
-                        <a href="#">Creative</a>
+                        <a href="#">Global Project Top</a>
                       </div>
                       {/* <!--Post Socials--> */}
                       <div className="ptf-post-socials">
@@ -185,32 +187,8 @@ const GlobalProject = () => {
                     <BlogPostAuthor />
                     {/* End .ptf-about-author */}
 
-                    {/* <!--Related Posts--> */}
-                    <div className="ptf-related-posts">
-                      <h2 className="ptf-related-posts__title">
-                        Related Posts
-                      </h2>
-                      <div className="ptf-isotope-grid">
-                        <div
-                          className="row"
-                          style={{ "--bs-gutter-y": "2rem" }}
-                        >
-                          <RelatedPost />
-                        </div>
-                      </div>
-                    </div>
-                    {/* End .ptf-related-posts */}
-
                     {/* <!--Comments--> */}
                     <section className="ptf-page-comments">
-                      {/* <!--Comments list--> */}
-                      <div className="ptf-page-comments__list">
-                        <h2 className="ptf-page-comments__title">
-                          03 Comments:
-                        </h2>
-                        <BlogComment />
-                      </div>
-
                       {/* <!--Comments form--> */}
                       <div className="ptf-page-comments__form">
                         <h2 className="ptf-page-comments__title">
@@ -219,17 +197,6 @@ const GlobalProject = () => {
                         <BlogCommentForm />
                       </div>
                     </section>
-
-                    {/* <!--Post Navigation--> */}
-                    <div className="ptf-post-navigation ptf-post-navigation--style-1">
-                      <span>Next Post</span>
-                      <Link
-                        className="h1 ptf-filled-link"
-                        to="/blog-details-sidebar"
-                      >
-                        Minimalist Trends
-                      </Link>
-                    </div>
                   </div>
                 </div>
               </div>

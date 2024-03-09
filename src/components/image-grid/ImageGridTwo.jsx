@@ -3,16 +3,16 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 
 const imageList = [
   {
-    img: "assets/img/blog/single-post/content-image-1.png",
+    img: "assets/img/blog/single-post/working-hard-image2.png",
     delayAnimation: "0",
-    imageOwner: "@element5digital",
-    link: "https://element5digital.com/",
+    imageOwner: "@COMPASSInstituionUCSD",
+    link: "https://compassinstitution.com/",
   },
   {
-    img: "assets/img/blog/single-post/content-image-2.png",
+    img: "assets/img/blog/single-post/group-photo-image1.png",
     delayAnimation: "100",
-    imageOwner: "@insideweather",
-    link: "https://insideweather.com/",
+    imageOwner: "@COMPASSInstituionUCSD",
+    link: "https://compassinstitution.com/",
   },
 ];
 

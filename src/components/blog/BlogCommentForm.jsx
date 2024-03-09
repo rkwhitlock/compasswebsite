@@ -72,26 +72,6 @@ const BlogCommentForm = () => {
       </div>
       {/* End .ptf-form-group */}
 
-      <div
-        className="ptf-form-group agreement-checkbox "
-        style={{ marginBottom: "3.75rem" }}
-      >
-        <input
-          name="acceptTerms"
-          type="checkbox"
-          id="acceptTerms"
-          {...register("acceptTerms")}
-          className={` ${errors.acceptTerms ? "is-invalid" : ""}`}
-        />
-
-        <label className="ptf-checkbox" htmlFor="acceptTerms">
-          <span className="ptf-checkbox__checkmark"></span>Save my name & email
-          in this browser for next time I comment.
-        </label>
-        {errors.acceptTerms && (
-          <div className="invalid-feedback">{errors.acceptTerms?.message}</div>
-        )}
-      </div>
       {/* End .ptf-form-group */}
 
       <p className="form-submit">
