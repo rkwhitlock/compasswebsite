@@ -105,7 +105,7 @@ const GlobalProject = () => {
                           <div className="ptf-twitter-review__icon"></div>
                         </div>
                         <div className="ptf-twitter-review__content">
-                          <p>Insert Quote here</p>
+                          <p>The Global Project played a pivotal role in defining COMPASS and its essence, establishing the organization on the principles of using advanced mathematical modeling to tackle the global challenges. This mission, inherently noble, not only laid the foundation for COMPASS but also stands as the quintessential embodiment of its objectives.</p>
                         </div>
                       </div>
                       {/* <!--Spacer--> */}
